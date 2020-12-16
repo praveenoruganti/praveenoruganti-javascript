@@ -1,6 +1,6 @@
 # Praveen Oruganti JavaScript Projects
 
-**Note:** I will continue to update the projects
+**Note:** I will include more projects in future.
 
 - [praveenoruganti-color-flipper](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-color-flipper)
 - [praveenoruganti-counter](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-counter)
