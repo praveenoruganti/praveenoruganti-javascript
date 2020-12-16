@@ -1,6 +1,7 @@
 .container {
   width: 500px;
   align-content: center;
+  margin:auto;
 }
 
 .grid { 
