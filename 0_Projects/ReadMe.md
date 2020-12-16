@@ -1,6 +1,6 @@
 # Praveen Oruganti JavaScript Projects
 
-**Note:** I will include more projects in future.
+Here with my JavaScript Projects
 
 - [praveenoruganti-color-flipper](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-color-flipper)
 - [praveenoruganti-counter](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-counter)
@@ -21,3 +21,5 @@
 - [praveenoruganti-tic-tac-toe](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-tic-tac-toe)
 - [praveenoruganti-rock-paper-scissors](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-rock-paper-scissors)
 - [praveenoruganti-minesweeper](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-minesweeper)
+
+**Note:** I will continue to develop more JavaScript Projects and will update the same here going forward.
