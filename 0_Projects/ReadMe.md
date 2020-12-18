@@ -10,6 +10,7 @@ Here with my JavaScript Projects
 - [Modal](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-modal)
 - [Reviews](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-reviews)
 - [Todo List](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-todo-list)
+- [Tip Calculator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-tip-calculator)
 - [Calculator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-calculator)
 - [Password Generator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-password-generator)
 - [Speed Typing](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-speed-typing)
