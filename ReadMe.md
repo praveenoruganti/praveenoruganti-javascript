@@ -14,7 +14,7 @@ JavaScript (or "JS") is a programming language used most often for dynamic clien
 ### Tools needed
 - Web Browser([Chrome](https://www.google.com/chrome/?brand=CHBD&brand=FKPE&gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6IjMi1GbbkXQKjcpNOnOQVuXI8nmkx54QpyhTUpiDVEXAI32lHhvToaAtE-EALw_wcB&gclsrc=aw.ds))
 - Code Editor([VSCode](https://code.visualstudio.com/download))
-## Core Concepts of JavaScript
+### Core Concepts of JavaScript
 - [How To Write JavaScript](https://praveenoruganti.github.io/praveenoruganti-javascript/1_Basics)
 - [Variables](https://praveenoruganti.github.io/praveenoruganti-javascript/2_Variables)
 - [Data Types](https://praveenoruganti.github.io/praveenoruganti-javascript/3_Data%20Types)
