@@ -25,3 +25,5 @@ Here with my JavaScript Projects
 - [Minesweeper Game](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-minesweeper)
 
 **Note:** I will continue to develop more JavaScript Projects and will update the same here going forward.
+
+### [Buy me a Coffeee](http://bit.ly/2WryDT8)
