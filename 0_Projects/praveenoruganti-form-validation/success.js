@@ -7,4 +7,4 @@ h1.innerText = `You have successfully registered ${userName}`;
 document.body.appendChild(h1);
 
 let newURL = location.href.split("?")[0];
-window.history.pushState("object", document.title, newURL);
+window.history.pushState("object", document.title, newURL.substring(0, newURL.lastIndexOf("/")));
