@@ -14,6 +14,7 @@ Here with my JavaScript Projects
 - [Calculator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-calculator)
 - [Password Generator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-password-generator)
 - [Speed Typing](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-speed-typing)
+- [Budget](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-budget)
 - [Quote Generator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-quote-generator)
 - [Quiz](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-quiz)
 - [GitHub Search](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-github-search)
