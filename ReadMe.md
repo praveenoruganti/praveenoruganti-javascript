@@ -33,4 +33,4 @@ JavaScript (or "JS") is a programming language used most often for dynamic clien
 - [Projects](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects)
 - [Interview Questions](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Interview%20Questions)
 
-Note: I will make sure to keep this updated
+**Note**: I will make sure to keep this updated
