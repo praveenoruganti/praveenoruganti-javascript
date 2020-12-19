@@ -31,7 +31,7 @@ JSON data consists of key/value pairs similar to JavaScript object properties. T
 ### JSON Object
 The JSON object is written inside curly braces { }. JSON objects can contain multiple key/value pairs. For example,
 // JSON object
-{ "name": "John", "age": 22 }
+{ "name": "Praveen", "age": 35 }
 
 ### JSON Array
 JSON array is written inside square brackets [ ]. For example,
@@ -40,9 +40,9 @@ JSON array is written inside square brackets [ ]. For example,
 
 // JSON array containing objects
 [
-    { "name": "John", "age": 22 },
-    { "name": "Peter", "age": 20 }.
-    { "name": "Mark", "age": 23 }
+    { "name": "Praveen", "age": 35 },
+    { "name": "Khaja", "age": 36 }.
+    { "name": "Varma", "age": 38 }
 ]
 
 **Note**: JSON data can contain objects and arrays. However, unlike JavaScript objects, JSON data cannot contain functions as values.
@@ -52,21 +52,21 @@ You can access JSON data using the dot notation.
 ```javascript
 // JSON object
 const data = {
-    "name": "John",
-    "age": 22,
+    "name": "Praveen",
+    "age": 35,
     "hobby": {
 	"reading" : true,
 	"gaming" : false,
-	"sport" : "football"
+	"sport" : "Cricket"
     },
     "class" : ["JavaScript", "HTML", "CSS"]
 }
 
 // accessing JSON object
-console.log(data.name); // John
-console.log(data.hobby); // { gaming: false, reading: true, sport: "football"}
+console.log(data.name); // Praveen
+console.log(data.hobby); // { gaming: false, reading: true, sport: "Cricket"}
 
-console.log(data.hobby.sport); // football
+console.log(data.hobby.sport); // Cricket
 console.log(data.class[1]); // HTML
 ```
 We use the . notation to access JSON data. Its syntax is: variableName.key
@@ -76,12 +76,12 @@ You can also use square bracket syntax [] to access JSON data. For example,
 ```javascript
 // JSON object
 const data = {
-    "name": "John",
-    "age": 22
+    "name": "Praveen",
+    "age": 35
 }
 
 // accessing JSON object
-console.log(data["name"]); // John
+console.log(data["name"]); // Praveen
 ```
 
 ### JavaScript Objects VS JSON
@@ -92,25 +92,25 @@ Though the syntax of JSON is similar to the JavaScript object, JSON is different
 You can convert JSON data to a JavaScript object using the built-in JSON.parse() function. For example,
 ```javascript
 // JSON object
-const JSONData = '{ "name": "John", "age": 22 }';
+const JSONData = '{ "name": "Praveen", "age": 35 }';
 
 // converting to JavaScript object
 const obj = JSON.parse(JSONData);
 
 // accessing the data
-console.log(obj.name); // John
+console.log(obj.name); // Praveen
 ```
 ### Converting JavaScript Object to JSON
 You can also convert JavaScript objects to JSON format using the JavaScript built-in JSON.stringify() function. For example,
 ```javascript
 // JavaScript object
-const JSONData = { "name": "John", "age": 22 };
+const JSONData = { "name": "Praveen", "age": 35 };
 
 // converting to JSON
 const obj = JSON.stringify(JSONData);
 
 // accessing the data
-console.log(obj); // "{"name":"John","age":22}"
+console.log(obj); // "{"name":"Praveen","age":35}"
 ```
 ### Use of JSON
 JSON is the most commonly used format for transmitting data (data interchange) from a server to a client and vice-versa. JSON data are very easy to parse and use. It is fast to access and manipulate JSON data as they only contain texts.
