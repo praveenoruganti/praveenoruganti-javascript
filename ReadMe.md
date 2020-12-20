@@ -1,6 +1,6 @@
 # All About JavaScript
 
-- [Basics](https://praveenoruganti.github.io/praveenoruganti-javascript/1_Basics)
+- [Introduction](https://praveenoruganti.github.io/praveenoruganti-javascript/1_Introduction)
 - [Variables](https://praveenoruganti.github.io/praveenoruganti-javascript/2_Variables)
 - [Data Types](https://praveenoruganti.github.io/praveenoruganti-javascript/3_Data%20Types)
 - [Operators](https://praveenoruganti.github.io/praveenoruganti-javascript/4_Operators)
