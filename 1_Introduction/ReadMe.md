@@ -66,6 +66,10 @@ console.log("Welcome to Praveen Oruganti JavaScript Tutorials")
 
 To be able to see the bigger picture of some piece of code you must know how that particular programming language works under the hood.
 
+Everything in JavaScript happens inside an Execution Context.
+
+JavaScript is a synchronous single-threaded language.
+
 **Execution Context and Window Object**
 Every block of code written to work properly it needs some environment when it can run, and it is no different for the JavaScript too. Say hi to the Execution Context which is the place where the JavaScript code is running. To have a picture of the Execution Context, think of it like some kind of box, container or wrapper which stores variables and which a piece of JavaScript code is evaluated and executed.
 
