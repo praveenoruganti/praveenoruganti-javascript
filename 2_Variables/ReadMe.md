@@ -2,8 +2,8 @@
 
 Most of the time, a JavaScript application needs to work with information. Here are two examples:
 
-An online shop  the information might include goods being sold and a shopping cart.
-A chat application  the information might include users, messages, and much more.
+- An online shop  the information might include goods being sold and a shopping cart.
+- A chat application  the information might include users, messages, and much more.
 Variables are used to store this information.
 
 ## A Variable
@@ -180,6 +180,6 @@ We can declare variables to store data by using the var, let, or const keywords.
 
 Variables should be named in a way that allows us to easily understand what’s inside them.
 
-### let vs var
+### var vs let vs const
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-javascript/master/images/let%20vs%20var.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-javascript/master/images/varVsletVsconst.PNG)
