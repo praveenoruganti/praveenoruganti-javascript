@@ -68,6 +68,7 @@ To be able to see the bigger picture of some piece of code you must know how tha
 
 Everything in JavaScript happens inside an Execution Context.
 
+
 JavaScript is a synchronous single-threaded language.
 
 **Execution Context and Window Object**
