@@ -133,3 +133,41 @@ Now let's see how the execution context is created. As we said before when a fun
 
 In the creation phase we first have the creation of the Variable Object, second the creation of the Scope Chain, and at the end "this" variable is set. In the execution phase, the code that generated the current execution context is run line by line, and all of the variables are defined. If it is the global context, then it is the global code that is executed.
 
+## Hoisting
+
+Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope.
+
+For e.g. Current scope could be the current script or the current function where they declared.
+
+This means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+
+Hoisting moves declaration to the top of current scope but not value assigned into it.
+
+If without declaring an variable, we start to assign value into it, then It becomes by default Global variable.
+
+it is recommended to always declare variables regardless of whether they are in a function or global scope.
+
+```javascript
+// Example1: We can use a variable before it is declared
+num = 50;
+console.log(num); // 50
+var num;
+
+// Example2: Hoisting moves the declarations to top but not the assignments.
+var num1;
+console.log(num1); // undefined
+num1 = 100;
+
+// Example3: If variable not declared anywhere then it becomes Global.
+
+function test(){
+    num2=200;
+    var num3=300;
+
+}
+
+test();
+console.log(num2); // 200
+console.log(num3); // ReferenceError: num3 is not defined
+
+```
