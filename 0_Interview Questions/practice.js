@@ -1,4 +1,4 @@
-/* Simple Coding Task
+/* Simple Coding Task for Beginners
 1. Create variables to represent scores of exams for John and Nick and set values as 80 and 45.
 2. Create variable to set the lower limit for passing an exam and assign it to value as 51.
 3. Write the condition in if statement, which will check if both students have passed an exam and log the result in console.
