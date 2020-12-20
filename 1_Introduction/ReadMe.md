@@ -118,9 +118,9 @@ Now the context of the first function is again the active context, and the code 
 **How Execution Context is Created**
 As we said before we can associate an execution context with an object, this object has three properties:
 
-- **Variable Object (VO)** - which contains function arguments, inner variable declarations and functions declarations.
-- **Scope Chain**- which contains the current variable objects as well as the variable objects of all of its parents.
-- **"This" variable**- which is pointing to the current object.
+- **Variable Object (VO)** which contains function arguments, inner variable declarations and functions declarations.
+- **Scope Chain** which contains the current variable objects as well as the variable objects of all of its parents.
+- **"This" variable** which is pointing to the current object.
 
 Now let's see how the execution context is created. As we said before when a function is started an execution context is put on top of the execution stack, this process happens in two phases:
 - Creation phase
