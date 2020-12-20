@@ -105,15 +105,15 @@ first();
 ```
 Our first declaration, the variable name is not in any function, which means we are in the global execution context. The function first(), function second() and function third() declarations are also in the same execution context. When we go to the last line where the first() function is called, we will get a new execution context on the top of the execution stack. Every execution context that is on the top of the execution stack becomes an active context in which the code is executed.
 
-Now inside our new execution context, we have a variable a stored, on the next line we call the second function which again new execution context will be created on top of the execution stack, which also now becomes an active context.
+Now inside our new execution context, we have a **variable a** stored, on the next line we call the second function which again new execution context will be created on top of the execution stack, which also now becomes an active context.
 
-Here inside the execution context of the second function, we have a variable b stored. we are calling the third function which will again create a new execution context on top of the execution stack.
+Here inside the execution context of the second function, we have a **variable b** stored. we are calling the third function which will again create a new execution context on top of the execution stack.
 
-Inside the execution context of the third function, we have a variable c and z and nothing more. So our third function has finished all of its work and we say that the function returns, and it's execution context it's removed from the top of the execution stack.
+Inside the execution context of the third function, we have a **variable c and z** and nothing more. So our third function has finished all of its work and we say that the function returns, and it's execution context it's removed from the top of the execution stack.
 
-After that, the context of the second function which called the third function becomes the active context again, and we continue. Now the z variable is updated and the second function finishes all of its work and returns, which it's execution context is also removed from the stack.
+After that, the context of the second function which called the third function becomes the active context again, and we continue. Now the **z variable** is updated and the second function finishes all of its work and returns, which it's execution context is also removed from the stack.
 
-Now the context of the first function is again the active context, and the code continues where the x variable is updated and because there is no more work to be done inside the first function, we say again that the function returns and its execution context is removed from the execution stack.
+Now the context of the first function is again the active context, and the code continues where the **x variable** is updated and because there is no more work to be done inside the first function, we say again that the function returns and its execution context is removed from the execution stack.
 
 **How Execution Context is Created**
 As we said before we can associate an execution context with an object, this object has three properties:
