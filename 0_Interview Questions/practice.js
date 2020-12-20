@@ -17,7 +17,7 @@ function examEval() {
     if (scoreOfJohn > scoreOfNick) {
       console.log(`and it is John with ${scoreOfJohn} points`);
     } else {
-      console.log(`and it is John with ${scoreOfNick} points`);
+      console.log(`and it is Nick with ${scoreOfNick} points`);
     }
   } else {
     console.log("Both students failed the exam");
@@ -33,7 +33,7 @@ scoreOfNick = 70;
 examEval(); // Both students passed the exam
 
 scoreOfJohn = 20;
-examEval(); // One of the students passed the exam and it is John with 70 points
+examEval(); // One of the students passed the exam and it is Nick with 70 points
 
 scoreOfNick = 10;
 examEval(); // Both students failed the exam
