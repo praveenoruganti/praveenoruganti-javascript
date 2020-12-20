@@ -133,6 +133,8 @@ Now let's see how the execution context is created. As we said before when a fun
 
 In the creation phase we first have the creation of the Variable Object, second the creation of the Scope Chain, and at the end "this" variable is set. In the execution phase, the code that generated the current execution context is run line by line, and all of the variables are defined. If it is the global context, then it is the global code that is executed.
 
+Call stack maintains the order of the execution of execution contexts.
+
 ## Hoisting
 
 Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope.
