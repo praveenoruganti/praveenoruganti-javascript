@@ -1,100 +1,118 @@
 # JavaScript Closures
-In JavaScript, closure provides access to the outer scope of a function from inside the inner function, even after the outer function has closed.
-For example,
+Whenever you create a function within another function, you have created a closure. The inner function is the closure. This closure is usually returned so you can use the outer function’s variables at a later time.
+
 ```javascript
-// JavaScript Closures
+function outerFunction () {
+  const outer = `I see the outer variable!`
 
-// outer function
-function greet() {
-
-  // variable defined outside the inner function
-  let name = 'Praveen Oruganti';
-
-  // inner function
-  function displayName() {
-
-      // accessing name variable
-      return 'Hi' + ' ' + name;
-    
+  function innerFunction() {
+    console.log(outer)
   }
 
-  return displayName;
+  return innerFunction
 }
 
-const g1 = greet();
-console.log(g1); // [Function: displayName]
-console.log(g1()); // Hi Praveen Oruganti
+outerFunction()() // I see the outer variable!
 ```
-In the above example, when greet() function is called, it returns the function definition of displayName.
-Here, g1 is a reference to the displayName function.
-When g1() is called, it still has access to the greet() function.
-When we run console.log(g1), it returns the function definition.
 
-Let's have a look at another example.
-```javascript
-function calculate(x) {
-    function multiply(y) {
-        return x * y;
-    }
-    return multiply;
-}
-
-const multiply3 = calculate(3);
-const multiply4 = calculate(4);
-
-console.log(multiply3); // [Function: multiply]
-console.log(multiply3()); // NaN
-
-console.log(multiply3(6)); // 18
-console.log(multiply4(2)); // 8
-```
-In the above program, the calculate() function takes a single argument x and returns the function definition of the multiply function. The multiply() function takes a single argument y and returns x * y.
-Both multiply3 and multiply4 are closures.
-The calculate() function is called passing a parameter x. When multiply3 and multiply4 are called, the multiply() function has access to the passed x argument of the outer calculate() function.
-
-**JavaScript closure helps in the data privacy of the program.** For example,
+Since the inner function is returned, you can also shorten the code a little by writing a return statement while declaring the function.
 
 ```javascript
-let a = 0;
-function sum() {
-    function increaseSum() {
+function outerFunction () {
+  const outer = `I see the outer variable!`
 
-        // the value of a is increased by 1
-        return a = a + 1;
-    }
-    return increaseSum;
+  return function innerFunction() {
+    console.log(outer)
+  }
 }
 
-const x = sum();
-console.log(x()); // 1
-console.log(x()); // 2
-console.log(x()); // 3
-a = a + 1;
-console.log(a); // 4
+outerFunction()() // I see the outer variable!
 ```
-In the above example, the sum() function returns the function definition of the increaseSum function.
-The a variable is increased inside the increaseSum() function. However, the value of the a variable can also be changed outside of the function. In this case, a = a + 1; changes the value of the variable outside the function.
-Now, if you want the a variable to be increased only inside the function, you can use a closure. For example,
+
+Since closures have access to the variables in the outer function, they are usually used for two things:
+- To control side effects
+- To create private variables
+
+## Controlling side effects with closures
+Side effects happen when you do something in aside from returning a value from a function. Many things can be side effects, like an Ajax request, a timeout or even a console.log statement:
 
 ```javascript
-function sum() {
-    let a = 0;
-    function increaseSum() {
+function (x) {
+  console.log('A console.log is a side effect!')
+}
+```
 
-        // the value of a is increased by 1
-        return a = a + 1;
-    }
-    return increaseSum;
+When you use closures to control side effects, you’re usually concerned with ones that can mess up your code flow like Ajax or timeouts.
+
+Let’s go through this with an example to make things clearer.
+
+Let’s say you want to make a cake for your friend’s birthday. This cake would take a second to make, so you wrote a function that logs made a cake after one second.
+
+```javascript
+function makeCake() {
+  setTimeout(_ => console.log(`Made a cake`), 1000)
+}
+```
+As you can see, this cake making function has a side effect: a timeout.
+
+Let’s further say you want your friend to choose a flavor for the cake. To do so, you can write add a flavor to your makeCake function.
+
+```javascript
+function makeCake(flavor) {
+  setTimeout(_ => console.log(`Made a ${flavor} cake!`), 1000)
+}
+```
+When you run the function, notice the cake gets made immediately after one second.
+```javascript
+makeCake('banana')
+// Made a banana cake!
+```
+The problem here is that you don’t want to make the cake immediately after knowing the flavor. You want to make it later when the time is right.
+
+To solve this problem, you can write a prepareCake function that stores your flavor. Then, return the makeCake closure within prepareCake.
+
+From this point on, you can call the returned function whenever you want to, and the cake will be made within a second.
+
+```javascript
+function prepareCake (flavor) {
+  return function () {
+    setTimeout(_ => console.log(`Made a ${flavor} cake!`), 1000)
+  }
 }
 
-let x = sum();
-let a = 5;
-console.log(x()); // 1
-console.log(x()); // 2
-console.log(a); // 5
+const makeCakeLater = prepareCake('banana')
+
+// And later in your code...
+makeCakeLater()
+// Made a banana cake!
 ```
-In the above example, the sum() function sets the value of a to 0 and returns the increaseSum function.
-Because of the closure, even though sum() is already executed, increaseSum() still has access to a and can add 1 to a every time x() is called.
-And the a variable is private to the sum() function. It means that the a variable can only be accessed inside of the sum() function.
-Even if you declare a and use it, it does not affect the a variable inside of the sum() function.
+That’s how closures are used to reduce side effects – you create a function that activates the inner closure at your whim.
+
+## Private variables with closures
+
+As you know by now, variables created in a function cannot be accessed outside the function. Since they can’t be accessed, they are also called private variables.
+
+However, sometimes you need to access such a private variable. You can do so with the help of closures.
+
+```javascript
+function secret (secretCode) {
+  return {
+    saySecretCode () {
+      console.log(secretCode)
+    }
+  }
+}
+
+const theSecret = secret('Praveen Oruganti Rocks!!')
+theSecret.saySecretCode()
+// 'Praveen Oruganti Rocks!!'
+```
+saySecretCode in this example above is the only function (a closure) that exposes the secretCode outside the original secret function. As such, it is also called a privileged function.
+
 **Note**: Generally, closures are used for data privacy.
+
+## Summary
+
+When you declare a variable in a function, you can only access it in the function. These variables are said to be scoped to the function.
+
+If you define any inner function within another function, this inner function is called a closure. It retains access to the variables created in the outer function.
