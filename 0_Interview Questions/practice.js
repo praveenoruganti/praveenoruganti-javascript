@@ -1,4 +1,4 @@
-/*
+/* Simple Coding Task
 1. Create variables to represent scores of exams for John and Nick and set values as 80 and 45.
 2. Create variable to set the lower limit for passing an exam and assign it to value as 51.
 3. Write the condition in if statement, which will check if both students have passed an exam and log the result in console.
@@ -6,11 +6,9 @@
 5. Use else statement in order to display in console that both students have failed.
 6. Incase of passing the exam by one of the students, find out which one was that and display in console as an additional information the student name and his points.
 7. Test all possible cases (a. both students passed an exam; b. John passed and Nick failed; c. Nick passed and John failed d. Both students failed)
-
 */
 
 // SOLUTION
-
 function examEval() {
   if (scoreOfJohn >= passScore && scoreOfNick >= passScore) {
     console.log("Both students passed the exam");
