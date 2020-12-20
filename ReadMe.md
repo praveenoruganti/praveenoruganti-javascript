@@ -1,23 +1,6 @@
 # All About JavaScript
 
-### What is JavaScript?
-JavaScript (or "JS") is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using a runtime such as Node.js.
-
-### History of JavaScript
-1995 - Netscape created Livescript<br>
-1997 - ECMAScript1 was released<br>
-2009 - ECMAScript5(ES5) was released<br>
-2015 - ECMAScript5(ES2015 - ES6) was released -> This is widely used<br>
-2016 - ECMAScript5(ES2016 - ES7) was released<br>
-2017 - ECMAScript5(ES2017 - ES8) was released<br>
-2018 - ECMAScript5(ES2018 - ES9) was released<br>
-
-### Tools needed
-- Web Browser([Chrome](https://www.google.com/chrome/?brand=CHBD&brand=FKPE&gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6IjMi1GbbkXQKjcpNOnOQVuXI8nmkx54QpyhTUpiDVEXAI32lHhvToaAtE-EALw_wcB&gclsrc=aw.ds))
-- Code Editor([VSCode](https://code.visualstudio.com/download))
-
-### Core Concepts of JavaScript
-- [How To Write JavaScript](https://praveenoruganti.github.io/praveenoruganti-javascript/1_Basics)
+- [Basics](https://praveenoruganti.github.io/praveenoruganti-javascript/1_Basics)
 - [Variables](https://praveenoruganti.github.io/praveenoruganti-javascript/2_Variables)
 - [Data Types](https://praveenoruganti.github.io/praveenoruganti-javascript/3_Data%20Types)
 - [Operators](https://praveenoruganti.github.io/praveenoruganti-javascript/4_Operators)
