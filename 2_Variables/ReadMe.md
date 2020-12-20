@@ -180,6 +180,166 @@ We can declare variables to store data by using the var, let, or const keywords.
 
 Variables should be named in a way that allows us to easily understand what’s inside them.
 
-### var vs let vs const
+## var vs let vs const
 
 ![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-javascript/master/images/varVsletVsconst.PNG)
+
+## Variable Scope
+Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global:
+
+- Global variables are those declared outside of a block
+- Local variables are those declared inside of a block
+
+In the example below, we will create a global variable.
+```javascript
+var name="Praveen";
+```
+We learned that variables can be reassigned. Using local scope, we can actually create new variables with the same name as a variable in an outer scope without changing or reassigning the original value.
+
+In the example below, we will create a global species variable. Within the function is a local variable with the same name. By sending them to the console, we can see how the variable’s value is different depending on the scope, and the original value is not changed.
+
+```javascript
+// Initialize a global variable
+var name = "Praveen";
+
+function fullName() {
+  // Initialize a local, function-scoped variable
+  var name = "Praveen Oruganti";
+  console.log(name);
+}
+
+// Log the global and local variable
+console.log(name); // Praveen
+fullName(); // Praveen Oruganti
+console.log(name); // Praveen
+```
+In this example, the local variable is function-scoped. Variables declared with the var keyword are always function-scoped, meaning they recognize functions as having a separate scope. This locally-scoped variable is therefore not accessible from the global scope.
+
+The new keywords let and const, however, are block-scoped. This means that a new, local scope is created from any kind of block, including function blocks, if statements, and for and while loops.
+
+To illustrate the difference between function- and block-scoped variables, we will assign a new variable in an if block using let.
+
+```javascript
+var fullName = true;
+
+// Initialize a global variable
+let name = "Praveen";
+
+if (fullName) {
+  // Initialize a block-scoped variable
+  let name = "Praveen Oruganti";
+  console.log(`Full Name is ${name}.`); // Full Name is Praveen Oruganti
+}
+
+console.log(`Name is ${name}.`); // Name is Praveen
+```
+
+In this example, the name variable has one value globally (Praveen), and another value locally (Praveen Oruganti). If we were to use var, however, there would be a different result.
+
+```javascript
+var fullName = true;
+// Use var to initialize a variable
+var name = "Praveen";
+
+if (fullName) {
+  // Attempt to create a new variable in a block
+  var name = "Praveen Oruganti";
+  console.log(`Full Name is ${name}.`); // Full Name is Praveen Oruganti
+}
+
+console.log(`Name is ${name}.`); // Name is Praveen Oruganti
+```
+In the result of this example, both the global variable and the block-scoped variable end up with the same value, Praveen Oruganti. This is because instead of creating a new local variable with var, you are reassigning the same variable in the same scope. var does not recognize if to be part of a different, new scope. It is generally recommended that you declare variables that are block-scoped, as they produce code that is less likely to unintentionally override variable values.
+
+## Hoisting
+In most of the examples so far, we’ve used var to declare a variable, and we have initialized it with a value. After declaring and initializing, we can access or reassign the variable.
+
+If we attempt to use a variable before it has been declared and initialized, it will return undefined.
+
+```javascript
+// Attempt to use a variable before declaring it
+console.log(num); // undefined
+
+// Variable assignment
+var num = 100;
+```
+
+However, if we omit the var keyword, we are no longer declaring the variable, only initializing it. It will return a ReferenceError and halt the execution of the script.
+
+```javascript
+// Attempt to use a variable before declaring it
+console.log(num); // ReferenceError: num is not defined
+
+// Variable assignment without var
+num = 100;
+```
+The reason for this is due to hoisting, a behavior of JavaScript in which variable and function declarations are moved to the top of their scope. Since only the actual declaration is hoisted, not the initialization, the value in the first example returns undefined.
+
+To demonstrate this concept more clearly, below is the code we wrote and how JavaScript actually interpreted it.
+
+```javascript
+// The code we wrote
+console.log(num);
+var num = 100;
+
+// How JavaScript interpreted it
+var num;
+console.log(num);
+num = 100;
+```
+
+JavaScript saved num to memory as a variable before the execution of the script. Since it was still called before it was defined, the result is undefined and not 100. However, it does not cause a ReferenceError and halt the script. Although the var keyword did not actually change location of the var, this is a helpful representation of how hoisting works. This behavior can cause issues, though, because the programmer who wrote this code likely expects the output of num to be true, when it is instead undefined.
+
+We can also see how hoisting can lead to unpredictable results in the next example:
+```javascript
+// Initialize num in the global scope
+var num = 100;
+
+function hoist() {
+  // A condition that should not affect the outcome of the code
+  if (false) {
+    var num = 200;
+  }
+  console.log(num); // undefined
+}
+
+hoist();
+```
+
+In this example, we declared num to be 100 globally. Depending on an if statement, num could change to 200, but since the condition was false it should not have affected the value of num. Instead, num was hoisted to the top of the hoist() function, and the value became undefined.
+
+This type of unpredictable behavior can potentially cause bugs in a program. Since let and const are block-scoped, they will not hoist in this manner, as seen below.
+
+```javascript
+// Initialize num in the global scope
+let num = true;
+
+function hoist() {
+  // Initialize num in the function scope
+  if (3 === 4) {
+    let num = false;
+  }
+  console.log(num); // true
+}
+
+hoist();
+```
+Duplicate declaration of variables, which is possible with var, will throw an error with let and const.
+
+```javascript
+// Attempt to overwrite a variable declared with var
+var num = 1;
+var num = 2;
+
+console.log(num); // 2
+```
+
+```javascript
+// Attempt to overwrite a variable declared with let
+let num1 = 1;
+let num1 = 2;
+
+console.log(num1); // Uncaught SyntaxError: Identifier 'num1' has already been declared
+```
+
+To summarize, variables introduced with var have the potential of being affected by hoisting, a mechanism in JavaScript in which variable declarations are saved to memory. This may result in undefined variables in one’s code. The introduction of let and const resolves this issue by throwing an error when attempting to use a variable before declaring it or attempting to declare a variable more than once.
