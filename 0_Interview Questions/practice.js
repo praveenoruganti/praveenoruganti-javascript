@@ -9,7 +9,7 @@
 */
 
 // SOLUTION
-function examEval() {
+let examEval = () => {
   if (scoreOfJohn >= passScore && scoreOfNick >= passScore) {
     console.log("Both students passed the exam");
   } else if (scoreOfJohn >= passScore || scoreOfNick >= passScore) {
@@ -22,11 +22,11 @@ function examEval() {
   } else {
     console.log("Both students failed the exam");
   }
-}
+};
 
-var scoreOfJohn = 80;
-var scoreOfNick = 45;
-var passScore = 51;
+let scoreOfJohn = 80;
+let scoreOfNick = 45;
+let passScore = 51;
 examEval(); // One of the students passed the exam and it is John with 80 points
 
 scoreOfNick = 70;
