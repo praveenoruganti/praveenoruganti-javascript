@@ -3,7 +3,7 @@
 ## What is JavaScript?
 JavaScript (or "JS") is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using a runtime such as Node.js.
 
-### History of JavaScript
+## History of JavaScript
 1995 - Netscape created Livescript<br>
 1997 - ECMAScript1 was released<br>
 2009 - ECMAScript5(ES5) was released<br>
@@ -12,10 +12,10 @@ JavaScript (or "JS") is a programming language used most often for dynamic clien
 2017 - ECMAScript5(ES2017 - ES8) was released<br>
 2018 - ECMAScript5(ES2018 - ES9) was released<br>
 
-### Tools needed
+## Tools needed
 - Web Browser([Chrome](https://www.google.com/chrome/?brand=CHBD&brand=FKPE&gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6IjMi1GbbkXQKjcpNOnOQVuXI8nmkx54QpyhTUpiDVEXAI32lHhvToaAtE-EALw_wcB&gclsrc=aw.ds))
 - Code Editor([VSCode](https://code.visualstudio.com/download))
-# How To Write JavaScript
+## How To Write JavaScript
 
 In two ways we can do this
 
