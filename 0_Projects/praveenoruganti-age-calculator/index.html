@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="lcol">
+    <h1 class="text-center">Praveen Oruganti Age Calculator</h1>
+    <h2 class="text-center text-danger">Calculate age from date of birth to current date </h2>
+    <div id="doc" class="d-flex justify-content-center bg-dark p-5">
+      <div style="background-color: #f9563a;" class="p-5">
+        <form name="calcform" autocomplete="off">
+          <table class="calc">
+            <tbody>
+              <tr>
+                <td colspan="4">Date of birth:</td>
+              </tr>
+              <tr>
+                <td>
+                  <select id="month1" class="form-control form-control-lg">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="days1" class="form-control form-control-lg">
+                    <option>1</option>
+                  </select>
+                </td>
+                <td><input type="number" step="1" id="year1" placeholder="1990" class="form-control form-control-lg">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <div id="dp1"></div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">Age at the date of:</td>
+              </tr>
+              <tr>
+                <td>
+                  <select id="month2" class="form-control form-control-lg">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="days2" class="form-control form-control-lg">
+                    <option>1</option>
+                  </select>
+                </td>
+                <td><input type="number" step="1" id="year2" placeholder="1990" class="form-control form-control-lg">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <div id="dp2"></div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <button type="button" title="Calculate" class="btn btn-success" onclick="calc()"> Calculate</button>
+                  <button type="reset" title="Reset" class="btn btn-warning"> Reset</button>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">Age result:</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <div id="age" rows="6" name="age"
+                    class="form-control form-control-lg bg-dark text-light pre-scrollable"></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
