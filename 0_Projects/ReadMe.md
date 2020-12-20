@@ -18,6 +18,7 @@ Here with my JavaScript Projects
 - [Speed Typing](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-speed-typing)
 - [Budget](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-budget)
 - [Quote Generator](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-quote-generator)
+- [Math Game](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-math-game)
 - [Quiz](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-quiz)
 - [GitHub Search](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-github-search)
 - [Jokes](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-jokes)
