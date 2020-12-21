@@ -1,7 +1,16 @@
-#col{
-   margin:auto;
+html, body {
+   height: 100%;
 }
 
+html {
+   display: table;
+   margin: auto;
+}
+
+body {
+   display: table-cell;
+   vertical-align: middle;
+}
 h1 { font-size:1.6rem; }
    h2 { font-size:1.1rem; }
    #wrapper td {
