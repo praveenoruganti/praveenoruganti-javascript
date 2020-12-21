@@ -86,7 +86,7 @@ console.log(data["name"]); // Praveen
 
 ### JavaScript Objects VS JSON
 Though the syntax of JSON is similar to the JavaScript object, JSON is different from JavaScript objects.
-![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-javascript/master/images/JSON%20Vs%20Object.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-js/master/images/JSON%20Vs%20Object.PNG)
 
 ### Converting JSON to JavaScript Object
 You can convert JSON data to a JavaScript object using the built-in JSON.parse() function. For example,

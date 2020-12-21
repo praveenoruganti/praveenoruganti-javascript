@@ -79,7 +79,7 @@ let x, X;
 ```
 - Names cannot be reserved keywords.
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-javascript/master/images/keywords.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-js/master/images/keywords.PNG)
 ```javascript
 let let; // invalid
 let var; // invalid
@@ -182,7 +182,7 @@ Variables should be named in a way that allows us to easily understand what’s 
 
 ## var vs let vs const
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-javascript/master/images/varVsletVsconst.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-js/master/images/varVsletVsconst.PNG)
 
 ## Variable Scope
 Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global:

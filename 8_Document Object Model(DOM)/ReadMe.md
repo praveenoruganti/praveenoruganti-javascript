@@ -64,7 +64,7 @@ We can update the attribute by selecting the HTML element and name of the attrib
 let bgImageElement = document.getElementById("bg-image");
 bgImageElement.src = backImgPath;
 ```
-You can check the [Counter](https://praveenoruganti.github.io/praveenoruganti-javascript/8_Document%20Object%20Model(DOM)/2_Update%20HTML%20Content_Attributes_Styles) for reference.
+You can check the [Counter](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Update%20HTML%20Content_Attributes_Styles) for reference.
 
 ### Update Styles of HTML Elements
 **Syntax**
@@ -139,7 +139,7 @@ For example,
 ```javascript
 selectedElement.addEventListener('click',function(){})
 ```
-You can check out this [color flipper](https://praveenoruganti.github.io/praveenoruganti-javascript/8_Document%20Object%20Model(DOM)/3_Events/1_Intro%20to%20Events) based on button click event.
+You can check out this [color flipper](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/3_Events/1_Intro%20to%20Events) based on button click event.
 
 ### Form Events
 Here with the Form Events
@@ -171,7 +171,7 @@ username.addEventListener("blur", () => {
     event.preventDefault();
   });
 ```
-Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-javascript/8_Document%20Object%20Model(DOM)/3_Events/2_Form%20Events) and see the browser console.
+Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/3_Events/2_Form%20Events) and see the browser console.
 
 ### Keyboard Events
 The keyboard events are triggered when the user clicks a key from the keyboard.
@@ -180,9 +180,9 @@ There are 3 keyboard events:
 - keyup: It is triggered when any key is released after it's keydown event.
 - keypress: It is triggered when any key except Shift, Function, capsLock is in pressed position.
 
-Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-javascript/8_Document%20Object%20Model(DOM)/3_Events/3_Keyboard%20Events)
+Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/3_Events/3_Keyboard%20Events)
 
-You can also refer the [JavaScript Drum Kit](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-drum-kit)
+You can also refer the [JavaScript Drum Kit](https://praveenoruganti.github.io/praveenoruganti-js/0_Projects/praveenoruganti-drum-kit)
 
 
 **Note:** You can also refer this [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
