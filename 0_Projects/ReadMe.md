@@ -22,6 +22,7 @@ Here with my JavaScript Projects
 - [Quiz](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-quiz)
 - [GitHub Search](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-github-search)
 - [Jokes](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-jokes)
+- [Weather](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-weather)
 - [Expanding Cards](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-expanding-cards)
 - [Flex Panel Gallery](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-flex-panel-gallery)
 - [Tic Tac Toe Game](https://praveenoruganti.github.io/praveenoruganti-javascript/0_Projects/praveenoruganti-tic-tac-toe)
