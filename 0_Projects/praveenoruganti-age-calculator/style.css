@@ -1,16 +1,8 @@
-html, body {
-   height: 100%;
-}
-
-html {
-   display: table;
-   margin: auto;
-}
-
 body {
-   display: table-cell;
-   vertical-align: middle;
-}
+   display:flex; flex-direction:column; justify-content:center;
+   min-height:100vh;
+ }
+ 
 h1 { font-size:1.6rem; }
    h2 { font-size:1.1rem; }
    #wrapper td {
