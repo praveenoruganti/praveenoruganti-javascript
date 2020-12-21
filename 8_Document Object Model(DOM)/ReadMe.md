@@ -84,7 +84,8 @@ We can us the method add().
 
 let selectedElement= getElementById('selector'); // querySelector('selector')
 Syntax: selectedElement.classList.add('MyClass');
-For example,
+
+**Example**
 ```javascript
 selectedElement.classList.add('show');
 ```
