@@ -1,53 +1,98 @@
 body {
-   display:flex; flex-direction:column; justify-content:center;
-   min-height:100vh;
- }
- 
-h1 { font-size:1.6rem; }
-   h2 { font-size:1.1rem; }
-   #wrapper td {
-      padding-left:1px;
-      padding-right:1px;
-   }
-   .calc { padding:10px; background:#f9563a; }
-   .calc td { background:#f9563a !important; }
-   .calc button { margin:10px auto; }
-   .calc button img { filter:brightness(0) invert(1); }
-   .calc>tbody>tr>td {
-      padding-top:5px;
-      padding-bottom:5px;
-   }
-   .calc>tbody>tr>td>input[type=number] {
-      width:100px;
-   }
-   #calc2>tbody>tr:nth-child(5)>td input[type=number] {
-      width:100%;
-   }
-   .calc>tbody>tr>td:nth-child(1)>select {
-      width:160px;
-   }
-   .calc>tbody>tr>td:nth-child(2)>select {
-      width:80px;
-   }
-  /*.calc tr td:nth-child(3) { width:180px; }*/
-  .calc>tbody>tr>td:nth-child(4) img { opacity:0.5; padding-left:3px; }
-  #age { height:100%; width:100%;}
-  .ui-datepicker-trigger {
-    display: inline;
-    padding:0px;
-    padding-left:3px;
-    vertical-align:baseline;
-    position:relative;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.1rem;
+}
+#wrapper td {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.calc {
+  padding: 10px;
+  background: #f9563a;
+}
+.calc td {
+  background: #f9563a !important;
+}
+.calc button {
+  margin: 10px auto;
+}
+.calc button img {
+  filter: brightness(0) invert(1);
+}
+.calc > tbody > tr > td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.calc > tbody > tr > td > input[type="number"] {
+  width: 100px;
+}
+#calc2 > tbody > tr:nth-child(5) > td input[type="number"] {
+  width: 100%;
+}
+.calc > tbody > tr > td:nth-child(1) > select {
+  width: 160px;
+}
+.calc > tbody > tr > td:nth-child(2) > select {
+  width: 80px;
+}
+/*.calc tr td:nth-child(3) { width:180px; }*/
+.calc > tbody > tr > td:nth-child(4) img {
+  opacity: 0.5;
+  padding-left: 3px;
+}
+#age {
+  height: 100%;
+  width: 100%;
+}
+.ui-datepicker-trigger {
+  display: inline;
+  padding: 0px;
+  padding-left: 3px;
+  vertical-align: baseline;
+  position: relative;
+}
 @media all and (max-width: 576px) {
-   .calc { width:100%; }
-   .calc td { float:left; }
-   .calc td:nth-child(7) { clear:left; }
-   .calc select { width:300px; }
-   .calc tr:nth-child(2) td:nth-child(4) { padding-top:12px; }
-   .calc tr:nth-child(4) td:nth-child(4) { padding-top:12px; }
-   #calc2>tbody>tr:nth-child(4)>td:nth-child(1) { width:100%; }
-   .calc tr:nth-child(7) td { width:100%; }
-   #month1,#month2,#month3 { width:120px; }
-   #year1,#year2,#year3 { width:80px; }
+  .calc {
+    width: 100%;
+  }
+  .calc td {
+    float: left;
+  }
+  .calc td:nth-child(7) {
+    clear: left;
+  }
+  .calc select {
+    width: 300px;
+  }
+  .calc tr:nth-child(2) td:nth-child(4) {
+    padding-top: 12px;
+  }
+  .calc tr:nth-child(4) td:nth-child(4) {
+    padding-top: 12px;
+  }
+  #calc2 > tbody > tr:nth-child(4) > td:nth-child(1) {
+    width: 100%;
+  }
+  .calc tr:nth-child(7) td {
+    width: 100%;
+  }
+  #month1,
+  #month2,
+  #month3 {
+    width: 120px;
+  }
+  #year1,
+  #year2,
+  #year3 {
+    width: 80px;
+  }
 }
