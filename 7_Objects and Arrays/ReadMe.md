@@ -932,3 +932,5 @@ console.log(array1.some(value => value > 10)); // false
 console.log(array2.some(value => value > 10)); // true
 
 ```
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

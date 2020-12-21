@@ -197,4 +197,5 @@ async function addAll(){
 }
 addAll()
 ```
-Yeah. SO MUCH BETTER.
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

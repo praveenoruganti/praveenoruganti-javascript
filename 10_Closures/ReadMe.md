@@ -116,3 +116,5 @@ saySecretCode in this example above is the only function (a closure) that expose
 When you declare a variable in a function, you can only access it in the function. These variables are said to be scoped to the function.
 
 If you define any inner function within another function, this inner function is called a closure. It retains access to the variables created in the outer function.
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

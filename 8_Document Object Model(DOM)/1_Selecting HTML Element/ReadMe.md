@@ -42,3 +42,6 @@ There are 2 such selectors:
 **Note**
 - Query Selectors are not supported by IE 7 and below version
 - getElementById is faster than querySelector
+
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

@@ -20,3 +20,5 @@ For example,
 let selectedElement= getElementById('selector'); // querySelector('selector')
 selectedElement.classList.remove('show');
 ```
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

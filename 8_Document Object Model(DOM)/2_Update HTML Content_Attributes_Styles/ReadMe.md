@@ -27,3 +27,5 @@ selectedElement.style.{propertyName}= value;
 ```javascript
 selectedElement.style.width='300px'
 ```
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

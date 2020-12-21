@@ -97,3 +97,5 @@ Let's Open [HTML](https://praveenoruganti.github.io/praveenoruganti-js/13_setInt
 ![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-js/master/images/setInterval%20and%20clearInterval.PNG)
 
 **Note**: If you only need to execute a function one time, it's better to use the setTimeout() method.
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

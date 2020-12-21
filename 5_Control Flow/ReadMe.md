@@ -580,3 +580,5 @@ In the above program, the throw statement is used within the try block to catch 
 Here, the catch block handles the exception and no error occurs. Hence, the throw statement is not re-thrown.
 
 If the error was not handled by the catch block, the throw statement would be re-thrown with error message Uncaught Error: The value is low
+
+### [Buy me a Coffee](http://bit.ly/2WryDT8)
