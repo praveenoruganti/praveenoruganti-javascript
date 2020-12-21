@@ -26,7 +26,7 @@ h1 { font-size:1.6rem; }
    }
   /*.calc tr td:nth-child(3) { width:180px; }*/
   .calc>tbody>tr>td:nth-child(4) img { opacity:0.5; padding-left:3px; }
-  #age { height:170px; }
+  #age { height:100%; width:100%;}
   .ui-datepicker-trigger {
     display: inline;
     padding:0px;
