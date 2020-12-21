@@ -82,19 +82,20 @@ The modern browsers give us access to a property called 'classList'. This classL
 **Add Class:**
 We can us the method add().
 
-let selectedElement= getElementById('selector'); // querySelector('selector')
 Syntax: selectedElement.classList.add('MyClass');
 
 **Example**
 ```javascript
+let selectedElement= getElementById('selector'); // querySelector('selector')
 selectedElement.classList.add('show');
 ```
 **Remove Class:**
 We can us the method remove().
-let selectedElement= getElementById('selector'); // querySelector('selector')
+
 Syntax: selectedElement.classList.remove('MyClass');
 For example,
 ```javascript
+let selectedElement= getElementById('selector'); // querySelector('selector')
 selectedElement.classList.remove('show');
 ```
 ## Get Element styles values using JavaScript
