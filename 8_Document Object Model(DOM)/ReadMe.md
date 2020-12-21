@@ -147,9 +147,11 @@ Here with the Form Events
 - focus: The focus event is triggered when the input field is focused by the user
 - blur: The blue event is triggered when the input field loses focus.
 - submit: The submit event is triggered when the submit button is clicked by the user.
+
 For example,
 
 ```javascript
+
 let username = document.getElementById("username");
 let loginForm = document.getElementById("login-form");
 username.addEventListener("input", (event) => {
@@ -171,6 +173,7 @@ username.addEventListener("blur", () => {
     alert("Submit Button Clicked");
     event.preventDefault();
   });
+  
 ```
 
 Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/3_Events/2_Form%20Events) and see the browser console.
