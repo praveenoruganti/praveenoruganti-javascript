@@ -12,11 +12,8 @@ When a web page is loaded, the browser creates a Document Object Model of the pa
 
 **Lets see inner details of DOM**
 
-- [Selecting HTML Element](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_Selecting%20HTML%20Element)
-- [Update HTML Content, Attributes and Styles](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Update%20HTML%20Content_Attributes_Styles)
-- [Add or Remove Classes](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/3_Add_Remove%20Classes)
-- [Get Element styles values](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/4_Get%20Element%20styles%20values)
-- [Events](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/5_Events)
+- [Select,Update,Create HTML Element Content,Attribute and Styles](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_Select_Update_Create_HTML%20Element%20Content_Attribute_Styles)
+- [Events](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Events)
 
 
 
