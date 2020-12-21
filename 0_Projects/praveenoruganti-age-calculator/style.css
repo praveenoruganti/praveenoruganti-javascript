@@ -1,12 +1,4 @@
-body {
-   font: 1rem/1.3 "Roboto", sans-serif;
-   background: var(--bg_main);
-   color: var(--text_dark);
-   padding: 50px;
- }
- 
- 
- h1 { font-size:1.6rem; }
+h1 { font-size:1.6rem; }
    h2 { font-size:1.1rem; }
    #wrapper td {
       padding-left:1px;
