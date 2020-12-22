@@ -14,7 +14,7 @@ We can update the attribute by selecting the HTML element and name of the attrib
 let bgImageElement = document.getElementById("bg-image");
 bgImageElement.src = backImgPath;
 ```
-You can check the [Counter](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Update HTML Element/Example/) for reference.
+You can check the [Counter](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Update%20HTML%20Element/Example/) for reference.
 
 
 ## Update Styles of HTML Elements
