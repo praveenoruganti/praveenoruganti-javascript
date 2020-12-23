@@ -12,8 +12,8 @@ When a web page is loaded, the browser creates a Document Object Model of the pa
 
 **Lets see different concepts in DOM**
 
-- [All About Modifying HTML Elements](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements)
-- [All About Events](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Events)
+- [All About Modifying HTML Elements](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements)
+- [All About Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events)
 
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

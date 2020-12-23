@@ -181,7 +181,7 @@ What operations are executed first, and which need to wait?
 Some operations have more precedence than the others. The precedence
 rules are listed in this table:
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-js/master/images/Precedence.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-vanilla-js/master/images/Precedence.PNG)
 
 Operations on the same level (like + and - ) are executed in the order they
 are found, from left to right.

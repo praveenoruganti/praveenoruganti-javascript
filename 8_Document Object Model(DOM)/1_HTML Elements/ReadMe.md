@@ -59,7 +59,7 @@ We can update the attribute by selecting the HTML element and name of the attrib
 let bgImageElement = document.getElementById("bg-image");
 bgImageElement.src = backImgPath;
 ```
-You can refer the [Counter](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Update%20HTML%20Elements/) for reference.
+You can refer the [Counter](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Update%20HTML%20Elements/) for reference.
 
 
 ## Update Styles of HTML Elements
@@ -167,7 +167,7 @@ list.insertBefore(beforeElement, firstItem);
 
 ```
 
-You can refer the [Todo Items](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Create%20HTML%20Elements/) for reference.
+You can refer the [Todo Items](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Create%20HTML%20Elements/) for reference.
 
 
 

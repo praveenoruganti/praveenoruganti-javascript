@@ -35,7 +35,7 @@ For example,
 selectedElement.addEventListener('click',function(){})
 ```
 
-You can check out this [color flipper](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Events/1_Intro%20to%20Events) based on button click event.
+You can check out this [color flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/1_Intro%20to%20Events) based on button click event.
 
 Lets see Form, Keyboard and Mouse Events now.
 
@@ -75,7 +75,7 @@ username.addEventListener("blur", () => {
 
 ```
 
-Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Events/2_Form%20Events) and see the browser console.
+Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/2_Form%20Events) and see the browser console.
 
 ## Keyboard Events
 
@@ -86,9 +86,9 @@ There are 3 keyboard events:
 - keyup: It is triggered when any key is released after it's keydown event.
 - keypress: It is triggered when any key except Shift, Function, capsLock is in pressed position.
 
-Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/2_Events/3_Keyboard%20Events)
+Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/3_Keyboard%20Events)
 
-You can also refer the [JavaScript Drum Kit](https://praveenoruganti.github.io/praveenoruganti-js/0_Projects/praveenoruganti-drum-kit)
+You can also refer the [JavaScript Drum Kit](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-drum-kit)
 
 ## Mouse Events
 
