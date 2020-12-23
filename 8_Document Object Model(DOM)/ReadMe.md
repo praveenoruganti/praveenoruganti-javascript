@@ -16,4 +16,4 @@ When a web page is loaded, the browser creates a Document Object Model of the pa
 - [All About Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events)
 
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+### [Contribution for a Cause](http://bit.ly/2WryDT8)

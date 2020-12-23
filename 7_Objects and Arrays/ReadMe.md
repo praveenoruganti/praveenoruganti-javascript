@@ -933,4 +933,4 @@ console.log(array2.some(value => value > 10)); // true
 
 ```
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+### [Contribution for a Cause](http://bit.ly/2WryDT8)

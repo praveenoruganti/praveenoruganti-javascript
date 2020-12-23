@@ -581,4 +581,4 @@ Here, the catch block handles the exception and no error occurs. Hence, the thro
 
 If the error was not handled by the catch block, the throw statement would be re-thrown with error message Uncaught Error: The value is low
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+### [Contribution for a Cause](http://bit.ly/2WryDT8)

@@ -136,4 +136,4 @@ btn.addEventListener("mousemove", () => {
 
 **Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+### [Contribution for a Cause](http://bit.ly/2WryDT8)

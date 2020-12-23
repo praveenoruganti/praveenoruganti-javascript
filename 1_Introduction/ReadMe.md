@@ -174,4 +174,4 @@ console.log(num3); // ReferenceError: num3 is not defined
 
 ```
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+### [Contribution for a Cause](http://bit.ly/2WryDT8)

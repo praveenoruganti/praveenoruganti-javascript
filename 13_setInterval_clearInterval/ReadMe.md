@@ -98,4 +98,4 @@ Let's Open [HTML](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/1
 
 **Note**: If you only need to execute a function one time, it's better to use the setTimeout() method.
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+### [Contribution for a Cause](http://bit.ly/2WryDT8)
