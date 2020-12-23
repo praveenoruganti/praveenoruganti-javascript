@@ -1,4 +1,4 @@
-# All About HTML Elements
+# All About Modifying HTML Elements
 
 ## Select HTML Elements
 
@@ -59,7 +59,7 @@ We can update the attribute by selecting the HTML element and name of the attrib
 let bgImageElement = document.getElementById("bg-image");
 bgImageElement.src = backImgPath;
 ```
-You can check the [Counter](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Update%20HTML%20Elements/) for reference.
+You can refer the [Counter](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Update%20HTML%20Elements/) for reference.
 
 
 ## Update Styles of HTML Elements
@@ -114,6 +114,61 @@ For example,
 ```javascript
 window.getComputedStyle(selectedElement).width
 ```
+
+## Create HTML Elements
+
+To add a new element to the HTML DOM, we need to create the element (element node) first, and then append it to an existing element.
+
+For example,
+
+```HTML
+<ul id="todo-list">
+    <li id="item1">List Item 1</li>
+    <li id="item2">List Item 2</li>
+</ul>
+```
+
+```javascript
+let list = document.getElementById("todo-list");
+let newListElement = document.createElement("li");
+let textNode = document.createTextNode("List Item 3");
+newListElement.appendChild(textNode);
+newListElement.id = "item3";
+list.appendChild(newListElement);
+
+```
+
+**Creating HTML Elements using insertBefore()**
+
+The appendChild() method in the previous example, appended the new element as the last child of the parent.
+
+If you don't want that you can use the insertBefore() method:
+
+For example,
+
+
+```HTML
+<ul id="todo-list">
+    <li id="item1">List Item 1</li>
+    <li id="item2">List Item 2</li>
+</ul>
+```
+
+```javascript
+let list = document.getElementById("todo-list");
+let firstItem = document.getElementById("item1");
+let beforeElement = document.createElement("li");
+let beforeTextNode = document.createTextNode("List Item 0");
+beforeElement.appendChild(beforeTextNode);
+console.log(beforeElement);
+beforeElement.id = "item0";
+// For adding Element before First Item
+list.insertBefore(beforeElement, firstItem);
+
+```
+
+You can refer the [Todo Item](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Create%20HTML%20Elements/) for reference.
+
 
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)
