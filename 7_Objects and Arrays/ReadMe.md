@@ -933,4 +933,4 @@ console.log(array2.some(value => value > 10)); // true
 
 ```
 
-### [Contribution for a Cause](http://bit.ly/2WryDT8)
+### [Contribute for a Cause](http://bit.ly/2WryDT8)

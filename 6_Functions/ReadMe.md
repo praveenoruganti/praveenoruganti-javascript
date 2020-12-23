@@ -203,5 +203,5 @@ if (num > 0) {
 
 ```
 
-### [Contribution for a Cause](http://bit.ly/2WryDT8)
+### [Contribute for a Cause](http://bit.ly/2WryDT8)
 

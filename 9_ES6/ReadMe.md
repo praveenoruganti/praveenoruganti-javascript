@@ -104,5 +104,5 @@ console.log(arr2); // ["one", "two", "three", "four", "five"]
 Both the rest parameter and the spread operator use the same syntax. However, the spread operator is used with arrays (iterable values).
 
 
-### [Contribution for a Cause](http://bit.ly/2WryDT8)
+### [Contribute for a Cause](http://bit.ly/2WryDT8)
 
