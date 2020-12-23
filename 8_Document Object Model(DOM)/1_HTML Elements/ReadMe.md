@@ -167,7 +167,9 @@ list.insertBefore(beforeElement, firstItem);
 
 ```
 
-You can refer the [Todo Item](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Create%20HTML%20Elements/) for reference.
+You can refer the [Todo Items](https://praveenoruganti.github.io/praveenoruganti-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Create%20HTML%20Elements/) for reference.
+
+
 
 
 
