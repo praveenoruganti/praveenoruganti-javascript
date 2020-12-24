@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Oruganti SmartWatch Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="timer()">
+    <header>
+        <img src="images/logo.svg" alt="amazon" class="logo">
+    </header>
+    <section id="article">
+        <div id="avatar">
+            <img id="myImage" src="./images/black.png" alt="">
+            <p id="time"></p>
+            <img id="heart" src="images/heart.png" alt="">
+            <span id="heart-rate"></span>
+        </div>
+        <div id="info">
+            <h1 class="title">Amazfit Bip U Smart Watch</h1>
+            <ul class="description">
+                <li>1.43" Large Color Touch Screen, Corning Gorilla 3 Reinforced Glass</li>
+                <li>(SpO2) Blood-oxygen Level Measurement</li>
+                <li>Heart Rate Monitoring and PAI Heath Assessment System</li>
+                <li>60+ Sports Modes and 5 ATM Water Resistance</li>
+                <li> Stress Monitoring with Breathing Training</li>
+                <li>Four Built-in Watch Faces and 50+ Downloadable from the Zepp App</li>
+                <li>Alarm Clock, Weather Forecast, and Smartphone Music and Camera Control</li>
+                <li>Smart Notifications for Incoming Calls, Text Messages, Apps, and Calendars</li>
+                <li>Lightweight 31g Design with 6-axis Accelerometer</li>
+            </ul>
+            <h3 class="section">Select Color</h3>
+            <ul class="colors">
+                <li class="black" onclick="black()"></li>
+                <li class="red" onclick="red()"></li>
+                <li class="blue" onclick="blue()"></li>
+                <li class="pink" onclick="pink()"></li>
+                <li class="purple" onclick="purple()"></li>
+            </ul>
+            <h3 class="section">Features</h3>
+            <ul class="options">
+                <li><a onclick="timer()">Time</a></li>
+                <li><a onclick="heartbeat()">Heart Rate</a></li>
+            </ul>
+            <button class="buy">
+                BUY NOW
+            </button>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
