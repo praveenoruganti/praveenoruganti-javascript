@@ -1,5 +1,6 @@
 const cards = document.querySelectorAll(".card");
 
+let cardsWon = 0;
 //variables
 var isFlipped = false;
 var firstCard;
@@ -21,6 +22,14 @@ function flip() {
 function checkIt() {
   if (firstCard.dataset.image === secondCard.dataset.image) {
     success();
+    cardsWon++;
+    if (cardsWon === 8) {
+      alert("You won!!!");
+      location.reload();
+      cardsWon = 0;
+      reset();
+      shuffle();
+    }
   } else {
     fail();
   }
@@ -37,7 +46,7 @@ function fail() {
     firstCard.classList.remove("flip");
     secondCard.classList.remove("flip");
     reset();
-  }, 1000);
+  }, 500);
 }
 
 function reset() {
