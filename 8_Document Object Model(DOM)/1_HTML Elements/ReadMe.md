@@ -59,7 +59,6 @@ We can update the attribute by selecting the HTML element and name of the attrib
 let bgImageElement = document.getElementById("bg-image");
 bgImageElement.src = backImgPath;
 ```
-Checkout the example [Counter](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Update%20HTML%20Elements/).
 
 
 ## Update Styles of HTML Elements
@@ -193,7 +192,7 @@ let firstElement = list.firstElementChild;
   }
 ```
 
-Checkout the example [Todo Items](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Examples/Create_Update_Delete%20HTML%20Elements/) for Creating, Updating and Deleting HTML elements.
+Checkout the example [Todo Items](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Create_Update_Delete%20HTML%20Elements/) for Creating, Updating and Deleting HTML elements.
 
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

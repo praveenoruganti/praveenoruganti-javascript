@@ -134,3 +134,19 @@ console.log(a);
 
 let calc = 1 * 2 + 5 / 2 % 2;
 console.log(calc); // 2.5
+
+
+let sellingPrice = 199;
+let listingPrice = 799;
+
+let discountPercent = ((listingPrice - sellingPrice) / listingPrice) * 100;
+
+console.log("Discount percentage is :" + discountPercent);
+
+displayDiscountPercentage = Math.round(discountPercent);
+
+console.log(displayDiscountPercentage + "% off");
+
+let result = listingPrice > sellingPrice;
+
+console.log(typeof result);
