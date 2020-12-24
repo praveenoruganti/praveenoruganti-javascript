@@ -95,4 +95,4 @@ Let's open [HTML](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/1
 ![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-vanilla-js/master/images/setTimeout%20and%20clearTimeout.PNG)
 
 
-### [Contribute for a Cause](http://bit.ly/2WryDT8)
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

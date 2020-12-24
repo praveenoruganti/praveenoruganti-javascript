@@ -31,4 +31,4 @@ Here with my JavaScript Projects
 
 **Note:** I will continue to develop more JavaScript Projects and will update the same here going forward.
 
-### [Contribute for a Cause](http://bit.ly/2WryDT8)
+### [Buy me a Coffee](http://bit.ly/2WryDT8)

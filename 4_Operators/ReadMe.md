@@ -194,4 +194,4 @@ let a = 2 + 0.5
 let a = 2.5
 ```
 
-### [Contribute for a Cause](http://bit.ly/2WryDT8)
+### [Buy me a Coffee](http://bit.ly/2WryDT8)
