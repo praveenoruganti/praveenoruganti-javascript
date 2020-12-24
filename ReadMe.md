@@ -15,7 +15,6 @@
 - [JSON](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/13_JSON)
 - [setInterval() and clearInterval()](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/14_setInterval_clearInterval)
 - [setTimeout() and clearTimeout()](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/15_setTimeout_clearTimeout)
-- [Callbacks, Promises, Async/Await](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/16_Callbacks_Promises_Async_Await)
 - [Projects](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects)
 - [Interview Questions](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Interview%20Questions)
 
