@@ -27,6 +27,7 @@ Here with my JavaScript Projects
 - [Expanding Cards](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-expanding-cards)
 - [Flex Panel Gallery](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-flex-panel-gallery)
 - [Tic Tac Toe Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-tic-tac-toe)
+- [Memory Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-memory)
 - [Rock Paper Scissors Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-rock-paper-scissors)
 - [Minesweeper Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-minesweeper)
 
