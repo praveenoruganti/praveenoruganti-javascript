@@ -1,5 +1,4 @@
 const cards = document.querySelectorAll(".card");
-console.log(cards);
 
 //variables
 var isFlipped = false;
