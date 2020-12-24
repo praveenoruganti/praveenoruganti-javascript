@@ -1,12 +1,6 @@
 # JavaScript Callbacks, Promises, Async/Await
-Most of the time, JavaScript code is ran synchronously.
-This means that a line of code is executed, then the next one is executed, and so on.
-Everything is as you expect, and how it works in most programming languages.
-However there are times when you cannot just wait for a line of code to execute.
-You can't just wait 2 seconds for a big file to load, and halt the program completely.
-You can't just wait for a network resource to be downloaded, before doing something else.
-JavaScript solves this problem using callbacks.
-The callback function is executed asynchronously.
+In JavaScript the code is executed line by line in a sequence so when we run a parallel operation or asynchronous operation like fetching data from backend, JavaScript doesn't waits for the response it simply executes the next line of code. we give the asynchronous operation a function to call when it is completed. This function is called a Callback function.
+
 ### JavaScript Callbacks
 A callback is a function that is passed to another function. When the first function is done, it will run the second function.
 

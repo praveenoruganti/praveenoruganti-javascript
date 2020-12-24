@@ -8,7 +8,7 @@
 - [Functions](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/6_Functions)
 - [Objects and Arrays](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/7_Objects%20and%20Arrays)
 - [Document Object Model(DOM)](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM))
-- [Browser Object Model(BOM)](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/9_Browser%20Object%20Model(DOM))
+- [Browser Object Model(BOM)](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/9_Browser%20Object%20Model(BOM))
 - [ES6](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/10_ES6)
 - [Closures](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/11_Closures)
 - [Date and Time](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/12_Date_Time)
