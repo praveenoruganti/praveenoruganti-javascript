@@ -46,8 +46,6 @@ function reset() {
   secondCard = null;
 }
 
-//TODO: shuffle
-
 (function shuffle() {
   cards.forEach((card) => {
     var index = Math.floor(Math.random() * 16);
