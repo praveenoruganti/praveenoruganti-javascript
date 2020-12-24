@@ -93,7 +93,7 @@ btnPause.addEventListener("click", function () {
 });
 
 ```
-Let's Open [HTML](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/13_setInterval_clearInterval/Examples/) in browser.
+Let's Open [HTML](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/12_setInterval_clearInterval/Examples/) in browser.
 ![screenshot of the app](https://raw.githubusercontent.com/praveenoruganti/praveenoruganti-vanilla-js/master/images/setInterval%20and%20clearInterval.PNG)
 
 **Note**: If you only need to execute a function one time, it's better to use the setTimeout() method.
