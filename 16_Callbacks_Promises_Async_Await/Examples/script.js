@@ -26,7 +26,7 @@ function getPosts_Callback(callback) {
   } catch (error) {
     callback(error);
   }
-}
+};
 
 // Promise
 
@@ -55,4 +55,4 @@ async function getPosts_AsyncAwait() {
   } catch (error) {
     console.log(error);
   }
-}
+};

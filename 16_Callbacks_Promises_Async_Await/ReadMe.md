@@ -30,7 +30,7 @@ function getPosts_Callback(callback) {
   } catch (error) {
     callback(error);
   }
-}
+};
 
 ```
 The problem with callbacks is it creates something called “Callback Hell.” Basically, you start nesting functions within functions within functions, and it starts to get really hard to read the code.
@@ -57,7 +57,7 @@ function getPosts_Promise() {
       return response.json();
     })
     .catch((error) => console.log(error));
-}
+};
 
 ```
 You can see that it still looks pretty similar. You wrap the whole function in a Promise, and instead of calling the callback, you call resolve (or reject if there is an error). The function returns this Promise object.
@@ -82,7 +82,8 @@ async function getPosts_AsyncAwait() {
   } catch (error) {
     console.log(error);
   }
-}
+};
+
 ```
 
 The Async/await duo allows us to have a cleaner code and a simple mental model to work with asynchronous code.
