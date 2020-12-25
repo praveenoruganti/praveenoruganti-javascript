@@ -21,7 +21,7 @@ class UI {
 
     row.innerHTML = `
         <td>${course.courseName}</td>
-        <td><a href=${course.url}>${course.url}</a></td>
+        <td><a href=${course.url} target="_blank">${course.url}</a></td>
         <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
       `;
 
@@ -95,7 +95,6 @@ document.querySelector("#course-form").addEventListener("submit", (e) => {
   // Get form values
   const courseName = document.querySelector("#courseName").value;
   const url = document.querySelector("#url").value;
-  console.log(url);
 
   // Validate
   if (courseName === "" || url === "") {
@@ -122,12 +121,16 @@ document.querySelector("#course-form").addEventListener("submit", (e) => {
 
 // Event: Remove a course
 document.querySelector("#course-list").addEventListener("click", (e) => {
-  // Remove course from UI
-  UI.deleteCourse(e.target);
+  if (e.target.classList.contains("delete")) {
+    // Remove course from UI
+    UI.deleteCourse(e.target);
 
-  // Remove course from store
-  Store.removeCourse(e.target.parentElement.previousElementSibling.textContent);
+    // Remove course from store
+    Store.removeCourse(
+      e.target.parentElement.previousElementSibling.textContent
+    );
 
-  // Show success message
-  UI.showAlert("Course Removed", "success");
+    // Show success message
+    UI.showAlert("Course Removed", "success");
+  }
 });
