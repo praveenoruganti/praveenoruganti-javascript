@@ -63,6 +63,7 @@ function getPosts_Promise() {
 You can see that it still looks pretty similar. You wrap the whole function in a Promise, and instead of calling the callback, you call resolve (or reject if there is an error). The function returns this Promise object.
 
 ### JavaScript Async/Await
+Async/await is a new approach that was added to JavaScript in ES2017.
 Async functions are a higher level abstraction over promises.
 An async function returns a promise.
 It makes your asynchronous code look more like synchronous/procedural code, which is easier for humans to understand.
