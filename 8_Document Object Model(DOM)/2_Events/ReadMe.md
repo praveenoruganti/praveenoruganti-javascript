@@ -35,7 +35,7 @@ For example,
 selectedElement.addEventListener('click',function(){})
 ```
 
-You can check out this [color flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/1_Intro%20to%20Events) based on button click event.
+You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
 
 Lets see Form, Keyboard and Mouse Events now.
 
@@ -75,7 +75,8 @@ username.addEventListener("blur", () => {
 
 ```
 
-Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/2_Form%20Events) and see the browser console.
+You can check out the Demo for [Form Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Form%20Events).
+
 
 ## Keyboard Events
 
@@ -86,9 +87,9 @@ There are 3 keyboard events:
 - keyup: It is triggered when any key is released after it's keydown event.
 - keypress: It is triggered when any key except Shift, Function, capsLock is in pressed position.
 
-Also refer the [page](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/3_Keyboard%20Events)
+You can check out the Demo for [Form Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Keyboard%20Events).
 
-You can also refer the [JavaScript Drum Kit](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-drum-kit)
+You can also check out Demo for [Drum Kit](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-drum-kit)
 
 ## Mouse Events
 
@@ -134,6 +135,10 @@ btn.addEventListener("mousemove", () => {
 
 ```
 
+You can check out the Demo for [Mouse Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events).
+
 **Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
+
+You can also check out the Demo for [Magic Color Changer](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer)
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

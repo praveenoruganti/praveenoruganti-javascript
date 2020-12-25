@@ -45,6 +45,7 @@ There are 2 such selectors:
 - Query Selectors are not supported by IE 7 and below version
 - getElementById is faster than querySelector
 
+You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Select%20HTML%20Elements).
 
 ## Update HTML Content and Attributes using JavaScript
 
@@ -72,6 +73,7 @@ selectedElement.style.{propertyName}= value;
 selectedElement.style.width='300px'
 ```
 
+You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/OOPS).
 
 # Add/Remove Classes using JavaScript
 
@@ -192,7 +194,10 @@ let firstElement = list.firstElementChild;
   }
 ```
 
-Checkout the example [Todo Items](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Create_Update_Delete%20HTML%20Elements/) for Creating, Updating and Deleting HTML elements.
+You can check out the  Demo for [Todo Items](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Todo) for Creating, Updating and Deleting HTML elements.
 
+You can also check out the Demo for [Counter](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Counter).
+
+You can also check out the Demo for [Sorting](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Sorting).
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

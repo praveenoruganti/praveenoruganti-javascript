@@ -75,5 +75,6 @@ console.log(location.pathname);
 console.log(location.search);
 location.assign("https://praveenorugantitech.blogspot.com");
 ```
+You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/9_Browser%20Object%20Model(BOM)/Demo).
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

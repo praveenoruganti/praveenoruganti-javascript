@@ -344,4 +344,6 @@ console.log(num1); // Uncaught SyntaxError: Identifier 'num1' has already been d
 
 To summarize, variables introduced with var have the potential of being affected by hoisting, a mechanism in JavaScript in which variable declarations are saved to memory. This may result in undefined variables in one’s code. The introduction of let and const resolves this issue by throwing an error when attempting to use a variable before declaring it or attempting to declare a variable more than once.
 
+You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/2_Variables/Demo).
+
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

@@ -193,5 +193,5 @@ let a = 2 + 2.5 % 2
 let a = 2 + 0.5
 let a = 2.5
 ```
-
+You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/4_Operators/Demo).
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)

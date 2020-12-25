@@ -202,6 +202,7 @@ if (num > 0) {
 }
 
 ```
+You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/6_Functions/Demo).
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)
 
