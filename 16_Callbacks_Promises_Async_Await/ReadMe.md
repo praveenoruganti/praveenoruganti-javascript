@@ -83,7 +83,7 @@ async function getPosts_AsyncAwait() {
   } catch (error) {
     console.log(error);
   }
-};
+}
 
 ```
 
