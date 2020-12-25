@@ -7,6 +7,7 @@ Here with my JavaScript Projects
 - [Countdown Timer](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-countdown-timer)
 - [Clock](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-clock)
 - [Smart Watch Showcase](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-smartwatch-showcase)
+- [Course List App](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-courses)
 - [Drum Kit](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-drum-kit)
 - [Form Validation](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-form-validation)
 - [Modal](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-modal)
