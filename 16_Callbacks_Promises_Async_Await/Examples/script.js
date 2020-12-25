@@ -56,3 +56,4 @@ async function getPosts_AsyncAwait() {
     console.log(error);
   }
 }
+
