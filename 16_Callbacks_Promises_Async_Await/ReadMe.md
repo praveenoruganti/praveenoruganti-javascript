@@ -46,6 +46,7 @@ A Promise has 3 states:
 
 ```javascript
 const url = "https://jsonplaceholder.typicode.com/posts";
+
 getPosts_Promise().then((posts) => {
   console.log(posts.length);
 });
@@ -68,6 +69,8 @@ It makes your asynchronous code look more like synchronous/procedural code, whic
 With one particular caveat: whenever we use the await keyword, we must do so inside a function defined as async .
 
 ```javascript
+const url = "https://jsonplaceholder.typicode.com/posts";
+
 getPosts_AsyncAwait().then((posts) => {
   console.log(posts.length);
 });
