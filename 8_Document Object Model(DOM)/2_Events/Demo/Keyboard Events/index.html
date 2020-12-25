@@ -10,6 +10,24 @@
 
 <body>
 <h1>Please press any key in keyboard and have a look at the Browser Console</h1>
+<p>
+<pre>
+document.body.addEventListener("keydown", (event) => {
+  let keyCode = event.keyCode;
+  console.log(`Keydown for ${keyCode} `);
+});
+
+document.body.addEventListener("keyup", (event) => {
+  let keyCode = event.keyCode;
+  console.log(`KeyUp for ${keyCode} `);
+});
+
+document.body.addEventListener("keypress", (event) => {
+  let keyCode = event.keyCode;
+  console.log(`KeyPress for ${keyCode} `);
+});
+</pre>
+</p>
 
     <script src="script.js"></script>
 </body>
