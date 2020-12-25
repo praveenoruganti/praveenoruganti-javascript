@@ -1,3 +1,6 @@
+// There are multiple ways to handle asynchronous code in JavaScript today.
+// Here we will explore the three most popular async options by making an HTTP call to the jsonplaceholder API.
+
 const url = "https://jsonplaceholder.typicode.com/posts";
 
 // Callback
