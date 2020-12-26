@@ -48,7 +48,7 @@
     "incorrect_answers": ["valueOf()", "toString()", "None of the above."]
   },
   {
-    "question": "Which is the most accurate way to describe the "this" keyword?",
+    "question": "Which is the most accurate way to describe the 'this' keyword?",
     "correct_answer": "The object instance the current function is being called on behalf of",
     "incorrect_answers": ["The execution context", "The object the current function is a method of", "The function that the current function was invoked from"]
   },
