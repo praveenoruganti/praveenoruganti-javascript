@@ -170,7 +170,7 @@ const date = new Date(2008, 0, 33);
 console.log(date);
 ```
 
-You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/12_Date_Time).
+You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/12_Date_Time/Demo).
 
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)
