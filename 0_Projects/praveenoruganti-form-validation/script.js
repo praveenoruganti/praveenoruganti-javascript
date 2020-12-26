@@ -3,6 +3,10 @@ const username = document.getElementById("username");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
+const emailExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+const passwordExp = /^[A-Za-z0-9\s]{5,8}$/;
+
+var submitButtonClicked = false;
 
 //Show input error message
 
@@ -13,16 +17,16 @@ function showError(input, message) {
   small.innerText = message;
 }
 
+function isValidEmail() {
+  return emailExp.test(String(email.value).toLowerCase());
+}
+
+function isPasswordValid() {
+  return passwordExp.test(password.value);
+}
 function showSuccess(input) {
   const formControl = input.parentElement;
   formControl.className = "form-control success";
-}
-
-//Email
-
-function isValidEmail(email) {
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(String(email).toLowerCase());
 }
 
 form.addEventListener("submit", function (e) {
@@ -35,7 +39,7 @@ form.addEventListener("submit", function (e) {
   }
   if (email.value === "") {
     showError(email, "Email is required");
-  } else if (!isValidEmail(email.value)) {
+  } else if (!isValidEmail()) {
     showError(email, "Email is not valid");
   } else {
     showSuccess(email);
@@ -43,6 +47,11 @@ form.addEventListener("submit", function (e) {
 
   if (password.value === "") {
     showError(password, "Password is required");
+  } else if (!isPasswordValid()) {
+    showError(
+      password,
+      "Password should be alpha numeric and a minimum of 5 and maximum of 8 characters"
+    );
   } else {
     showSuccess(password);
   }
@@ -52,22 +61,31 @@ form.addEventListener("submit", function (e) {
     showSuccess(password2);
   }
 
+  if (password.value !== password2.value) {
+    showError(password2, "confirm password must be same as password");
+  }
+
   if (
     email.value != "" &&
-    isValidEmail(email.value) &&
+    isValidEmail() &&
+    isPasswordValid() &&
+    password.value != "" &&
     password2.value != "" &&
-    password2.value != "" &&
+    password.value === password2.value &&
     username.value != ""
   ) {
+    submitButtonClicked = true;
     window.location.href = `success.html?username=${
       document.getElementById("username").value
     }`;
   }
 });
 
-// If you’ve attached the beforeunload event to the window, users will see a popup asking them to confirm
-// if they would like to “Leave” or “Cancel” when attempting to leave the page.
-window.addEventListener("beforeunload", (event) =>{
-   event.preventDefault();
-   event.returnValue='';
+// If you have attached the beforeunload event to the window, users will see a popup asking them to confirm
+// if they would like to "Leave" or "Cancel" when attempting to leave the page.
+window.addEventListener("beforeunload", (event) => {
+  if (!submitButtonClicked) {
+    event.preventDefault();
+    event.returnValue = "";
+  }
 });
