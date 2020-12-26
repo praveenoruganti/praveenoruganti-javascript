@@ -4,13 +4,14 @@ A function is a block of code that performs a specific task.
 
 Suppose you need to create a program to create a circle and color it. You can create two functions to solve this problem:
 
-a function to draw the circle
-a function to color the circle
+- a function to draw the circle
+- a function to color the circle
+
 Dividing a complex problem into smaller chunks makes your program easy to understand and reusable.
 
 JavaScript also has a huge number of inbuilt functions. For example, Math.sqrt() is a function to calculate the square root of a number.
 
-### Declaring a Function
+### Function Declaration
 The syntax to declare a function is:
 
 ```javascript
