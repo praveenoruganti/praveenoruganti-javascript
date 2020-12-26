@@ -1,25 +1,25 @@
 [
   {
-    "question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
-    "correct_answer": "document.getElementById('letsfindcourse').innerHTML = 'I am a letsfindcourse';",
-    "incorrect_answers": ["document.getElement('letsfindcourse').innerHTML = 'I am a letsfindcourse';", "document.getId('letsfindcourse') = 'I am a letsfindcourse';", "document.getElementById('letsfindcourse').innerHTML = I am a letsfindcourse;"]
+    "question": "var, let, and const differ in what ways?",
+    "correct_answer": "One has function scope, two have block scope, one cannot be reassigned and cannot be redeclared.",
+    "incorrect_answers": ["One has function scope, one has block scope, one has lexical scope.", "One has function scope, two have block scope, one contains objects you cannot change.", "One has function scope, two have block scope, one cannot be reassigned but can be redeclared."]
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "correct_answer": "script src='xxx.js'",
+    "question": "Which isn't a JavaScript value type?",
+    "correct_answer": "Object",
     "incorrect_answers": [
-      "script href='xxx.js'",
-      "script name='xxx.js'",
-      "script file='xxx.js'"
+      "Symbol",
+      "Null",
+      "Undefined"
     ]
   },
   {
-    "question": "How do you write 'Hello World' in an alert box?",
-    "correct_answer": "alert('Hello World');",
+    "question": "Which isn't a way to initialize an object?",
+    "correct_answer": "Calling the Object constructor",
     "incorrect_answers": [
-      "msgBox('Hello World');",
-      "alertBox('Hello World');",
-      "msg('Hello World');"
+      "Evaluating object literal syntax",
+      "Creating an instance of Object",
+      "Invoking the Object constructor's create method"
     ]
   },
   {
@@ -28,19 +28,19 @@
     "incorrect_answers": ["You should not use any of the JavaScript reserved keyword as variable name.", "JavaScript variable names should not start with a numeral (0-9).", "None of the above."]
   },
   {
-    "question": "Which of the following is the correct syntax to print a page using JavaScript?",
-    "correct_answer": "window.print();",
-    "incorrect_answers": ["browser.print();", "navigator.print();", "document.print();"]
+    "question": "Which is a value as well as a type?",
+    "correct_answer": "Null and Undefined",
+    "incorrect_answers": ["NaN", "Infinity", "Boolean"]
   },
   {
-    "question": "Which built-in method removes the last element from an array and returns that element?",
-    "correct_answer": "pop()",
-    "incorrect_answers": ["last()", "get()", "None of the above."]
+    "question": "What does it mean to say Function is first-class?",
+    "correct_answer": "A Function is an object and can be treated as a value.",
+    "incorrect_answers": ["Function declarations are hoisted and invoked before other code in the same function scope.", "All objects are created by invoking a constructor function.", "Functions are a data type."]
   },
   {
-    "question": "Which built-in method sorts the elements of an array?",
-    "correct_answer": "sort()",
-    "incorrect_answers": ["changeOrder(order)", "order()", "None of the above."]
+    "question": "Which doesn't have lexical scope?",
+    "correct_answer": "The this keyword in arrow functions",
+    "incorrect_answers": ["Variables in closures", "Variables in arrow functions", "The this keyword in object literals"]
   },
   {
     "question": "Which of the following function of Boolean object returns a string containing the source of the Boolean object?",
@@ -48,13 +48,13 @@
     "incorrect_answers": ["valueOf()", "toString()", "None of the above."]
   },
   {
-    "question": "Which of the following function of String object returns the index within the calling String object of the first occurrence of the specified value?",
-    "correct_answer": "indexOf()",
-    "incorrect_answers": ["substr()", "search()", "lastIndexOf()"]
+    "question": "Which is the most accurate way to describe the "this" keyword?",
+    "correct_answer": "The object instance the current function is being called on behalf of",
+    "incorrect_answers": ["The execution context", "The object the current function is a method of", "The function that the current function was invoked from"]
   },
   {
-    "question": "Which of the following function of String object returns the primitive value of the specified object.",
-    "correct_answer": "valueOf()",
-    "incorrect_answers": ["toLocaleUpperCase()", "toUpperCase()", "toString()"]
+    "question": "What do all initialized objects include?",
+    "correct_answer": "Both are correct",
+    "incorrect_answers": ["Their constructor's properties, methods, and prototype chain", "Object as their base class", "None of the Above"]
   }
 ]
