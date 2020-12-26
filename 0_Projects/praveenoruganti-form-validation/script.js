@@ -64,3 +64,8 @@ form.addEventListener("submit", function (e) {
     }`;
   }
 });
+
+window.addEventListener("beforeunload", (event) =>{
+   event.preventDefault();
+   event.returnValue='';
+});
