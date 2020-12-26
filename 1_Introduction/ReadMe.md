@@ -12,11 +12,18 @@ JavaScript (or "JS") is a programming language used most often for dynamic clien
 2017 - ECMAScript5(ES2017 - ES8) was released<br>
 2018 - ECMAScript5(ES2018 - ES9) was released<br>
 
+## Advantages of JavaScript
+- **Less server interaction**  You can validated user input before sending the page off to the server. This saves server traffic, which means less load on your server.
+- **Immediate feedback to the visitors** They don't have to wait for a page to reload to see if they have forgotten to enter something.
+- **Increased interactivity** You can create interfaces that react when the user hovers over them with a mouse or activates them via the keyboard.
+- **Rich interfaces** You can use JavaScript to include such items as drag and drop components and sliders to have a Rich interface to your site visitors.
+
 ## Tools needed
 - Web Browser([Chrome](https://www.google.com/chrome/?brand=CHBD&brand=FKPE&gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6IjMi1GbbkXQKjcpNOnOQVuXI8nmkx54QpyhTUpiDVEXAI32lHhvToaAtE-EALw_wcB&gclsrc=aw.ds))
 - Code Editor([VSCode](https://code.visualstudio.com/download))
-## How To Write JavaScript
 
+
+## How To Write JavaScript
 In two ways we can do this
 
 - **Write code in the script tag in HTML and it can be included in head tag or body tag or after body tag based on the scenario.**
