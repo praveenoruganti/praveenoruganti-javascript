@@ -65,6 +65,8 @@ form.addEventListener("submit", function (e) {
   }
 });
 
+// If you’ve attached the beforeunload event to the window, users will see a popup asking them to confirm
+// if they would like to “Leave” or “Cancel” when attempting to leave the page.
 window.addEventListener("beforeunload", (event) =>{
    event.preventDefault();
    event.returnValue='';
