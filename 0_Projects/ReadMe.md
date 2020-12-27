@@ -13,6 +13,7 @@ Here with my JavaScript Projects
 - [Modal](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-modal)
 - [Reviews](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-reviews)
 - [Todo List](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-todo-list)
+- [Event KeyCodes](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-event-keycodes)
 - [Grade Calculator](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-grade-calculator)
 - [Tip Calculator](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-tip-calculator)
 - [Age Calculator](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-age-calculator)
