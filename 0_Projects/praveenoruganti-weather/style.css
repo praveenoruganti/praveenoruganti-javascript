@@ -35,14 +35,6 @@ hr {
   margin: 0;
 }
 
-footer {
-  text-align: center;
-  margin-top: 10px;
-  font-family: monospace;
-  color: #015d88;
-  font-size: 15px;
-}
-
 .container,
 .main {
   margin: 0 auto;
