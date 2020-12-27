@@ -35,7 +35,7 @@ For example,
 selectedElement.addEventListener('click',function(){})
 ```
 
-You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
+
 
 Lets see Form, Keyboard and Mouse Events now.
 
@@ -137,8 +137,10 @@ btn.addEventListener("mousemove", () => {
 
 You can check out the Demo for [Mouse Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events).
 
-**Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
+You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
 
 You can also check out the Demo for [Magic Color Changer](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer).
+
+**Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
 
 ### [Buy me a Coffee](http://bit.ly/2WryDT8)
