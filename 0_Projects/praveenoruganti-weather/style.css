@@ -5,6 +5,9 @@ small {
   font-weight: 600;
 }
 
+.city{
+  text-align: end;
+}
 h1 {
   font-size: 25px;
   margin-bottom: 0;
