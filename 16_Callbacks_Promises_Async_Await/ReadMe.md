@@ -37,7 +37,9 @@ The problem with callbacks is it creates something called “Callback Hell.” B
 
 Promises try to fix this nesting problem.
 ## JavaScript Promises
-A Promise is used to handle the asynchronous result of an operation. It defers the execution of a code until an asynchronous request is completed. This way, other operations can keep running without interruption.
+A Promise is a special JavaScript object. It produces a value after an asynchronous (aka, async) operation completes successfully, or an error if it does not complete successfully due to time out, network error, and so on.
+
+Successful call completions are indicated by the resolve function call, and errors are indicated by the reject function call.
 
 A Promise has 3 states:
 - Pending: It means the operation is going on.
