@@ -33,6 +33,7 @@ Here with my JavaScript Projects
 - [Memory Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-memory)
 - [Rock Paper Scissors Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-rock-paper-scissors)
 - [Minesweeper Game](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-minesweeper)
+- [Guess the number](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-guess-the-number)
 
 **Note:** I will continue to develop more JavaScript Projects and will update the same here going forward.
 
