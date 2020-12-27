@@ -46,6 +46,8 @@ A Promise has 3 states:
 - Fulfilled: It means the operation was completed
 - Rejected: It means the operation did not complete and an error can be thrown.
 
+However, we can handle the  results in .then() method and errors in a better way using the .catch() method.
+
 ```javascript
 const url = "https://jsonplaceholder.typicode.com/posts";
 
