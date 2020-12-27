@@ -1,8 +1,8 @@
 let getMarks = () => {
-  const maths = Number(document.getElementById("maths").value);
-  const english = Number(document.getElementById("english").value);
-  const chemistry = Number(document.getElementById("chemistry").value);
-  const physics = Number(document.getElementById("physics").value);
+  const maths = ~~ document.getElementById("maths").value;
+  const english = ~~ document.getElementById("english").value;
+  const chemistry = ~~ document.getElementById("chemistry").value;
+  const physics = ~~ document.getElementById("physics").value;
 
   if (maths > 100 || english > 100 || chemistry > 100 || physics > 100) {
     alert("Marks can't be greater than 100");
