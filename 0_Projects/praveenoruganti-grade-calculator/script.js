@@ -12,8 +12,8 @@ let getMarks = () => {
     const percentage = (MarksObtained / totalMarks) * 100;
     document.getElementById("percentage").innerHTML = percentage + "%";
     let grade;
-    let message;
-    
+    let message = "Congratulations! you have passed.";
+
     if (
       percentage < 35 ||
       maths < 35 ||
@@ -23,16 +23,13 @@ let getMarks = () => {
     ) {
       message = "Sorry! you failed! please try next time.";
       grade = "F";
-      document.getElementById("percentage").innerHTML =null;
+      document.getElementById("percentage").innerHTML = null;
     } else if (percentage < 60) {
-      message = "Congratulations! you have passed.";
       grade = "B";
     } else if (percentage > 70 && percentage < 90) {
       grade = "A";
-      message = "Congratulations! you have passed with First Class.";
     } else {
       grade = "A+";
-      message = "Congratulations! you have passed with Distinction.";
     }
     document.getElementById("grade").innerHTML = grade;
     document.getElementById("pass").innerHTML = message;
