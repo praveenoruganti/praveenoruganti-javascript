@@ -41,12 +41,37 @@ A Promise is a special JavaScript object. It produces a value after an asynchron
 
 Successful call completions are indicated by the resolve function call, and errors are indicated by the reject function call.
 
-A Promise has 3 states:
+**How to create a Promise**
+To create a promise we need to use the Promise constructor function like this:
+```javascript
+const promise = new Promise(function(resolve, reject) {
+ 
+});
+```
+The Promise constructor takes a function as an argument and that function internally receives resolve and reject as parameters.
+
+The resolve and reject parameters are actually functions that we can call depending on the outcome of the asynchronous operation.
+
+A Promise goes through three states:
 - Pending: It means the operation is going on.
 - Fulfilled: It means the operation was completed
 - Rejected: It means the operation did not complete and an error can be thrown.
 
-However, we can handle the  results in .then() method and errors in a better way using the .catch() method.
+When we create a promise, it’s in a pending state. When we call the resolve function, it goes in a fulfilled state and if we call reject it will go in the rejected state.
+
+However,
+- To get the result of the successful promise execution, we need to register a callback using .then()
+- To catch the error, we need to register another callback using .catch().
+
+```javascript
+promise.then(function(result) {
+ console.log(result);
+}).catch(function(error) {
+ console.log(error);
+});
+```
+
+Lets see an example with Asynchronous API call,
 
 ```javascript
 const url = "https://jsonplaceholder.typicode.com/posts";
