@@ -10,7 +10,7 @@ let getMarks = () => {
     const totalMarks = 400;
     const MarksObtained = maths + english + chemistry + physics;
     const percentage = (MarksObtained / totalMarks) * 100;
-    document.getElementById("percentage").innerHTML = percentage + "%";
+    document.getElementById("percentage").innerHTML = percentage.toFixed(2) + "%";
     let grade;
     let message = "Congratulations! you have passed.";
 
