@@ -10,12 +10,20 @@ let getMarks = () => {
     const totalMarks = 400;
     const MarksObtained = maths + english + chemistry + physics;
     const percentage = (MarksObtained / totalMarks) * 100;
+    document.getElementById("percentage").innerHTML = percentage + "%";
     let grade;
     let message;
-    document.getElementById("percentage").innerHTML = percentage + "%";
-    if (percentage < 35) {
+    
+    if (
+      percentage < 35 ||
+      maths < 35 ||
+      english < 35 ||
+      chemistry < 35 ||
+      physics < 35
+    ) {
       message = "Sorry! you failed! please try next time.";
       grade = "F";
+      document.getElementById("percentage").innerHTML =null;
     } else if (percentage < 60) {
       message = "Congratulations! you have passed.";
       grade = "B";
@@ -33,10 +41,10 @@ let getMarks = () => {
 
 const calculate = document.getElementById("calculate");
 
-document.onkeydown=function(){
-  if(window.event.keyCode=='13'){
+document.onkeydown = function () {
+  if (window.event.keyCode == "13") {
     getMarks();
   }
-}
+};
 
 calculate.addEventListener("click", () => getMarks());
