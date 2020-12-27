@@ -14,7 +14,7 @@ let getMarks = () => {
       percentage
     )
       ? percentage
-      : percentage.toFixed(2) + "%";
+      : percentage.toFixed(1) + "%";
     let grade;
     let message = "Congratulations! you have passed.";
 
