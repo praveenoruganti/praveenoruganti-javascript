@@ -88,6 +88,9 @@ footer {
   font-weight: 500;
 }
 
+.weather{
+text-align: center;
+}
 .weather,
 .sky-and-temperature {
   margin-top: 10px;
@@ -95,7 +98,7 @@ footer {
 
 #sky-icon {
   margin-top: -25px;
-  width: 110px;
+  width: 90px;
 }
 
 .celsius-fahrenheit {
