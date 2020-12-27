@@ -10,7 +10,11 @@ let getMarks = () => {
     const totalMarks = 400;
     const MarksObtained = maths + english + chemistry + physics;
     const percentage = (MarksObtained / totalMarks) * 100;
-    document.getElementById("percentage").innerHTML = percentage.toFixed(2) + "%";
+    document.getElementById("percentage").innerHTML = Number.isInteger(
+      percentage
+    )
+      ? percentage
+      : percentage.toFixed(2) + "%";
     let grade;
     let message = "Congratulations! you have passed.";
 
@@ -28,7 +32,7 @@ let getMarks = () => {
       grade = "B";
     } else if (percentage > 60 && percentage < 70) {
       grade = "B+";
-    }else if (percentage > 70 && percentage < 90) {
+    } else if (percentage > 70 && percentage < 90) {
       grade = "A";
     } else {
       grade = "A+";
