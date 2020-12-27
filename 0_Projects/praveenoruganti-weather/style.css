@@ -124,9 +124,7 @@ text-align: center;
   margin: 10px 0 0;
 }
 
-.github-link {
-  font-weight: 800;
-}
-.github-link:hover {
-  text-decoration: underline;
+#text{
+  text-align: center;
+
 }

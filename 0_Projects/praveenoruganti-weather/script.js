@@ -313,3 +313,17 @@ searchCityForm.addEventListener("submit", handleSubmit);
 
 let currentLocationButton = document.querySelector(".current-location");
 currentLocationButton.addEventListener("click", getCurrentLocation);
+
+const textEl = document.getElementById("text");
+const text = "This is Praveen Oruganti Weather App!!";
+let idx = 1;
+writeText();
+
+function writeText() {
+  textEl.innerText = text.slice(0, idx);
+  idx++;
+  if (idx > text.length) {
+    idx = 1;
+  }
+  setTimeout(writeText, 300);
+}
