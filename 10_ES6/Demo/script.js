@@ -27,6 +27,22 @@ function sub(a, b = 0) {
 sub(5, 2);
 sub(5);
 
+function getUsers(page = 0, results = 10, gender = 'male',nationality = 'us') {
+  fetch(`https://randomuser.me/api/?page=${page}&results=${results}&gender=${gender}&nationality=${nationality}`)
+  .then(function(response) { 
+   return response.json();
+  }) 
+  .then(function(result) {
+    console.log(result); 
+  })
+  .catch(function(error) { 
+   console.log('error', error);
+   }); 
+ }
+ 
+ getUsers();
+ getUsers(1, 20, 'female', 'gb');
+
 // array destructuring
 const array = [1, 2, 3];
 const [first, second, third] = array;
@@ -68,3 +84,4 @@ function getPosts_Promise() {
 import {areaOfCircle} from './script1.js'
 
 console.log("Area:", areaOfCircle(5));
+

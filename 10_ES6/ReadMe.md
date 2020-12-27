@@ -229,8 +229,9 @@ import { temp1, temp2 } from './functions';
 // import from functions.js file from parent of current directory
 import { temp1 } from '../functions';
 ```
+One thing to note is that the name used while exporting has to match the name we use while importing.
 
-
+The order in which we import the multiple named exports is not important.
 
 You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/10_ES6/Demo).
 
