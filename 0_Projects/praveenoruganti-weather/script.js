@@ -314,6 +314,7 @@ searchCityForm.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector(".current-location");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
+// Auto Text Effect
 const textEl = document.getElementById("text");
 const text = "This is Praveen Oruganti Weather App!!";
 let idx = 1;

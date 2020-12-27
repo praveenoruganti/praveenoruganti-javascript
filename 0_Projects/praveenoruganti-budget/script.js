@@ -171,3 +171,18 @@ addForm.addEventListener("submit", (e) => {
   e.preventDefault();
   getBudgetAmount(amountInput.value);
 });
+
+// Auto Text Effect
+const textEl = document.getElementById("text");
+const text = "This is Praveen Oruganti Budget App!!";
+let idx = 1;
+writeText();
+
+function writeText() {
+  textEl.innerText = text.slice(0, idx);
+  idx++;
+  if (idx > text.length) {
+    idx = 1;
+  }
+  setTimeout(writeText, 300);
+}
