@@ -34,11 +34,26 @@ For example,
 ```javascript
 selectedElement.addEventListener('click',function(){})
 ```
+You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
 
+**Different phases of events - capture, target, bubble**
+When an event moves through the DOM - whether bubbling up or trickling down - it is called event propagation. The event propagates through the DOM tree.
 
+Events happen in two phases: the bubbling phase and the capturing phase.
+
+In capture phase, also called the trickling phase, the event "trickles down" to the element that caused the event.
+
+It starts from the root level element and handler, and then propagates down to the element. The capture phase is completed when the event reaches the target.
+
+In the bubble phase, the event is "bubbled" up to the DOM tree. It is first captured and handled by the innermost handler (the one that is closest to the element on which the event occurred). It then bubbles up (or propagates up) to the higher levels of DOM tree, further up to its parents, and then finally to its root.
+
+One thing to note is that, whether you register an event handler in either phase, both phases ALWAYS happen. All events bubble by default.
+
+You can register event handlers for either phase, bubbling or capturing, by using the function addEventListener(type, listener, useCapture). If useCapture is set to false, the event handler is in the bubbling phase. Otherwise it's in the capture phase.
+
+The order of the phases of the event depends on the browser.
 
 Lets see Form, Keyboard and Mouse Events now.
-
 ## Form Events
 
 Here with the Form Events
@@ -136,8 +151,6 @@ btn.addEventListener("mousemove", () => {
 ```
 
 You can check out the Demo for [Mouse Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events).
-
-You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
 
 You can also check out the Demo for [Magic Color Changer](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer).
 
