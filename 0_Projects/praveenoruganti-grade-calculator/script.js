@@ -26,7 +26,9 @@ let getMarks = () => {
       document.getElementById("percentage").innerHTML = null;
     } else if (percentage < 60) {
       grade = "B";
-    } else if (percentage > 70 && percentage < 90) {
+    } else if (percentage > 60 && percentage < 70) {
+      grade = "B+";
+    }else if (percentage > 70 && percentage < 90) {
       grade = "A";
     } else {
       grade = "A+";
