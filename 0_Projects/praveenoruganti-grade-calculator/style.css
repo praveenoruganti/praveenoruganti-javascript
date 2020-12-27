@@ -1,0 +1,23 @@
+body {
+  background-color: darkcyan;
+  color: whitesmoke;
+}
+
+.content {
+  padding: 3%;
+}
+
+.red {
+  background-color: red;
+  padding: 4%;
+}
+
+.blue {
+  background-color: blue;
+  padding: 4%;
+}
+
+.white {
+  background-color: whitesmoke;
+  color: black;
+}
