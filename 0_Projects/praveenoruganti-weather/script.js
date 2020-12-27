@@ -2,8 +2,6 @@ function displayCityAndWeather(response) {
   let city = response.data.name;
   let country=response.data.sys.country;
 
-  console.log(response);
-
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${city},${country}`;
 
