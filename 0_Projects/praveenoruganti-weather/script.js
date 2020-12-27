@@ -139,8 +139,8 @@ function displayForecast(response) {
 
   let forecasts = response.data.list;
   let newDaysIndexes = [];
-  let newDays = forecasts.map((forecast) => {
-    return forecast.dt_txt.includes("00:00:00");
+  let newDays = forecasts.map((forecastData) => {
+    return forecastData.dt_txt.includes("00:00:00");
   });
   let value = true;
   let idx = newDays.indexOf(value);
