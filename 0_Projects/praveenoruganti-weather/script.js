@@ -40,6 +40,7 @@ function getWeekDay(date) {
 
 function getMinTemp (response, newDaysIndexes, index) {
   let minTemps = [];
+  let smallestMinTemp;
 
   if (newDaysIndexes[0] === index) {
   for (let i = newDaysIndexes[0]; i < newDaysIndexes[1]; i++) {
@@ -85,6 +86,8 @@ function getMinTemp (response, newDaysIndexes, index) {
 
 function getMaxTemp (response, newDaysIndexes, index) {
   let maxTemps = [];
+
+  let highestMaxTemp;
 
   if (newDaysIndexes[0] === index) {
   for (let i = newDaysIndexes[0]; i < newDaysIndexes[1]; i++) {
@@ -207,15 +210,15 @@ function getCurrentLocation() {
 navigator.geolocation.getCurrentPosition(handleCurrentLocation);
 }
 
-function displayCurrentWeekDay (date) {
-  let weekDayNumber = date.getDay();
+function displayCurrentWeekDay () {
+  let weekDayNumber = currentDayAndTime.getDay();
   let weekDay = daysOfTheWeek[weekDayNumber];
 
   let currentWeekDaySpan = document.querySelector("#current-week-day");
   currentWeekDaySpan.innerHTML = weekDay;
 }
 
-function displayCurrentDate (currentDayAndTime) {
+function displayCurrentDate () {
   let currentMonthNumber = currentDayAndTime.getMonth();
   let months = [ "Jan.", "Feb.",	"Mar.",	"Apr.",	"May", "June", "July", "Aug.", "Sept.",	"Oct.",	"Nov.",	"Dec."]
   let currentMonth = months[currentMonthNumber];
@@ -229,7 +232,7 @@ function displayCurrentDate (currentDayAndTime) {
   currentDateSpan.innerHTML = currentDate;
 }
 
-function displayCurrentTime (currentDayAndTime) {
+function displayCurrentTime () {
   let currentHour = currentDayAndTime.getHours();
   if (currentHour < 10) {
     currentHour = `0${currentHour}`;
@@ -267,9 +270,9 @@ let celsiusTemperature = null;
 let daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 let currentDayAndTime = new Date();
-displayCurrentWeekDay(currentDayAndTime);
-displayCurrentDate(currentDayAndTime);
-displayCurrentTime(currentDayAndTime);
+displayCurrentWeekDay();
+displayCurrentDate();
+displayCurrentTime();
 
 let fahrenheitLink = document.querySelector("#fahrenheit");
 fahrenheitLink.addEventListener("click", convertToFarenheit)
