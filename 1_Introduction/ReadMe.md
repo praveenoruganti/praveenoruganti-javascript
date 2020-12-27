@@ -18,6 +18,10 @@ JavaScript (or "JS") is a programming language used most often for dynamic clien
 - **Increased interactivity** You can create interfaces that react when the user hovers over them with a mouse or activates them via the keyboard.
 - **Rich interfaces** You can use JavaScript to include such items as drag and drop components and sliders to have a Rich interface to your site visitors.
 
+## Disadvantages of JavaScript
+- **Client-Side Security**  Since JavaScript code is executed on the client-side, bugs and oversights can sometimes be exploited for malicious purposes. Because of this, some people choose to disable JavaScript entirely.
+- **Browser Support**  While server-side scripts always produce the same output, different browsers sometimes interpret JavaScript code differently. These days the differences are minimal, and you shouldn't have to worry about it as long as you test your script in all major browsers.
+
 ## Tools needed
 - Web Browser([Chrome](https://www.google.com/chrome/?brand=CHBD&brand=FKPE&gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6IjMi1GbbkXQKjcpNOnOQVuXI8nmkx54QpyhTUpiDVEXAI32lHhvToaAtE-EALw_wcB&gclsrc=aw.ds))
 - Code Editor([VSCode](https://code.visualstudio.com/download))
