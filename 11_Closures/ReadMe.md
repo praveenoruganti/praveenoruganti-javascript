@@ -44,9 +44,9 @@ function (x) {
 
 When you use closures to control side effects, you’re usually concerned with ones that can mess up your code flow like Ajax or timeouts.
 
-Let’s go through this with an example to make things clearer.
+Lets go through this with an example to make things clearer.
 
-Let’s say you want to make a cake for your friend’s birthday. This cake would take a second to make, so you wrote a function that logs made a cake after one second.
+Lets say you want to make a cake for your friend’s birthday. This cake would take a second to make, so you wrote a function that logs made a cake after one second.
 
 ```javascript
 function makeCake() {
@@ -55,7 +55,7 @@ function makeCake() {
 ```
 As you can see, this cake making function has a side effect: a timeout.
 
-Let’s further say you want your friend to choose a flavor for the cake. To do so, you can write add a flavor to your makeCake function.
+Lets further say you want your friend to choose a flavor for the cake. To do so, you can write add a flavor to your makeCake function.
 
 ```javascript
 function makeCake(flavor) {
