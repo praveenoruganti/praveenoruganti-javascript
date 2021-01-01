@@ -120,4 +120,3 @@ The Async/await duo allows us to have a cleaner code and a simple mental model t
 
 You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/16_Callbacks_Promises_Async_Await/Demo).
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)

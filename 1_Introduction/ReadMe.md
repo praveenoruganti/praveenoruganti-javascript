@@ -187,4 +187,3 @@ console.log(num3); // ReferenceError: num3 is not defined
 
 You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/1_Introduction/Demo).
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)

@@ -235,5 +235,5 @@ The order in which we import the multiple named exports is not important.
 
 You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/10_ES6/Demo).
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
+
 

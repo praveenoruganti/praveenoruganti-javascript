@@ -173,4 +173,3 @@ console.log(date);
 You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/12_Date_Time/Demo).
 
 
-### [Buy me a Coffee](http://bit.ly/2WryDT8)
