@@ -37,4 +37,6 @@ Here with my JavaScript Projects
 
 **Note:** I will continue to develop more JavaScript Projects and will update the same here going forward.
 
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+
 
