@@ -119,7 +119,7 @@ If you define any inner function within another function, this inner function is
 
 You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/11_Closures/Demo).
 
-### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+### [Buy me a Book](https://bit.ly/388sUbE)
 
 ### Connect with me:
 

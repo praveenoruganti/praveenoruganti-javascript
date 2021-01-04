@@ -156,7 +156,7 @@ You can also check out the Demo for [Magic Color Changer](https://praveenorugant
 
 **Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
 
-### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+### [Buy me a Book](https://bit.ly/388sUbE)
 
 ### Connect with me:
 

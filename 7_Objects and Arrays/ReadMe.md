@@ -935,7 +935,7 @@ console.log(array2.some(value => value > 10)); // true
 
 You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/7_Objects%20and%20Arrays/Demo).
 
-### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+### [Buy me a Book](https://bit.ly/388sUbE)
 
 ### Connect with me:
 

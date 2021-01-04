@@ -702,7 +702,7 @@ let a = {
 
 ```
 
-### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+### [Buy me a Book](https://bit.ly/388sUbE)
 
 
 ### Connect with me:

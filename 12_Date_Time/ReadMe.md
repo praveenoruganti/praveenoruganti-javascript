@@ -172,7 +172,7 @@ console.log(date);
 
 You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/12_Date_Time/Demo).
 
-### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+### [Buy me a Book](https://bit.ly/388sUbE)
 
 ### Connect with me:
 

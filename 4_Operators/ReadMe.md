@@ -195,7 +195,7 @@ let a = 2.5
 ```
 You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/4_Operators/Demo).
 
-### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
+### [Buy me a Book](https://bit.ly/388sUbE)
 
 ### Connect with me:
 
