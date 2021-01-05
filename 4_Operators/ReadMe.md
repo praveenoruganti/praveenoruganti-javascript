@@ -193,6 +193,6 @@ let a = 2 + 2.5 % 2
 let a = 2 + 0.5
 let a = 2.5
 ```
-You can check out the [Demo](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/4_Operators/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-vanilla-js/4_Operators/Demo).
 
 ### [Buy me a Book](https://bit.ly/388sUbE)

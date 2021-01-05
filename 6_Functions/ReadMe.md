@@ -203,7 +203,7 @@ if (num > 0) {
 }
 
 ```
-You can check out the [Demo](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/6_Functions/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-vanilla-js/6_Functions/Demo).
 
 ### [Buy me a Book](https://bit.ly/388sUbE)
 
