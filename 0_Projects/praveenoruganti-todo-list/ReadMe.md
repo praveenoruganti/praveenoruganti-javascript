@@ -2,6 +2,6 @@
 
 Here with the [Todo List](https://praveenorugantitech.github.io/praveenorugantitech-vanilla-js/0_Projects/praveenorugantitech-todo-list) developed using JavaScript.
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 
 ### Connect with me:

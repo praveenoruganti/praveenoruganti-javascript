@@ -22,6 +22,6 @@
 **Note**: I will make sure to keep this updated
 
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 
 

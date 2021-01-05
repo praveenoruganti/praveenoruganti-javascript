@@ -346,6 +346,6 @@ To summarize, variables introduced with var have the potential of being affected
 
 You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-vanilla-js/2_Variables/Demo).
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 
 

@@ -100,5 +100,5 @@ You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugan
 
 **Note**: If you only need to execute a function one time, it's better to use the setTimeout() method.
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 

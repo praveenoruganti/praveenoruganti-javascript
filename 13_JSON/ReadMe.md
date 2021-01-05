@@ -119,7 +119,7 @@ JSON is language independent. You can create and use JSON in other programming l
 
 You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-vanilla-js/13_JSON).
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 
 
 

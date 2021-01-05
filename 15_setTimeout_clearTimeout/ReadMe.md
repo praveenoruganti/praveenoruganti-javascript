@@ -96,6 +96,6 @@ You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugan
 
 ![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-vanilla-js/master/images/setTimeout%20and%20clearTimeout.PNG)
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 
 

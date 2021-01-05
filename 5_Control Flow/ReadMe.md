@@ -583,6 +583,6 @@ If the error was not handled by the catch block, the throw statement would be re
 
 You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-vanilla-js/5_Control%Flow/Demo).
 
-### [Buy me a Book](https://bit.ly/388sUbE)
+### [Buy me a Book](https://www.buymeacoffee.com/praveenoruganti)
 
 
