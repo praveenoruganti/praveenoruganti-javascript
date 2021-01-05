@@ -581,7 +581,7 @@ Here, the catch block handles the exception and no error occurs. Hence, the thro
 
 If the error was not handled by the catch block, the throw statement would be re-thrown with error message Uncaught Error: The value is low
 
-You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/5_Control%Flow/Demo).
+You can check out the [Demo](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/5_Control%Flow/Demo).
 
 ### [Buy me a Book](https://bit.ly/388sUbE)
 

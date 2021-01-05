@@ -117,7 +117,7 @@ When you declare a variable in a function, you can only access it in the functio
 
 If you define any inner function within another function, this inner function is called a closure. It retains access to the variables created in the outer function.
 
-You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/11_Closures/Demo).
+You can also check out the [Demo](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/11_Closures/Demo).
 
 ### [Buy me a Book](https://bit.ly/388sUbE)
 

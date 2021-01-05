@@ -118,7 +118,7 @@ async function getPosts_AsyncAwait() {
 
 The Async/await duo allows us to have a cleaner code and a simple mental model to work with asynchronous code.
 
-You can check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/16_Callbacks_Promises_Async_Await/Demo).
+You can check out the [Demo](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/16_Callbacks_Promises_Async_Await/Demo).
 
 ### [Buy me a Book](https://bit.ly/388sUbE)
 

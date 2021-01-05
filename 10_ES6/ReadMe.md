@@ -233,7 +233,7 @@ One thing to note is that the name used while exporting has to match the name we
 
 The order in which we import the multiple named exports is not important.
 
-You can also check out the [Demo](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/10_ES6/Demo).
+You can also check out the [Demo](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/10_ES6/Demo).
 
 ### [Buy me a Book](https://bit.ly/388sUbE)
 

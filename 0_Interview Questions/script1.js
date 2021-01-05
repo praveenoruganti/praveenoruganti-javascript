@@ -331,13 +331,13 @@ if (mm < 10) {
   mm = `0${mm}`;
 }
 today = `${mm}-${dd}-${yyyy}`;
-console.log(today); // 12-03-2020
+console.log(today); // 12-03-2021
 today = `${mm}/${dd}/${yyyy}`;
-console.log(today); // 12/03/2020
+console.log(today); // 12/03/2021
 today = `${dd}-${mm}-${yyyy}`;
-console.log(today); // 03-12-2020
+console.log(today); // 03-12-2021
 today = `${dd}/${mm}/${yyyy}`;
-console.log(today); // 03/12/2020
+console.log(today); // 03/12/2021
 
 // Q31 Write a JavaScript program to create a new string adding "New!" in front of a given string. If the given string begins with "New!" already then return the original string.
 const string_check = (str1) =>

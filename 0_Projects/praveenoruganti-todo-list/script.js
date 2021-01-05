@@ -51,9 +51,9 @@ function renderTodos(todos) {
     const li = document.createElement('li');
     // <li class="item"> </li>
     li.setAttribute('class', 'item');
-    // <li class="item" data-key="20200708"> </li>
+    // <li class="item" data-key="20210708"> </li>
     li.setAttribute('data-key', item.id);
-    /* <li class="item" data-key="20200708">
+    /* <li class="item" data-key="20210708">
           <input type="checkbox" class="checkbox">
           Go to Gym
           <button class="delete-button">X</button>

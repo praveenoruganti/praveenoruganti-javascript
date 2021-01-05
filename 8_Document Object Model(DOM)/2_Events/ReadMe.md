@@ -34,7 +34,7 @@ For example,
 ```javascript
 selectedElement.addEventListener('click',function(){})
 ```
-You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
+You can check out the Demo for [Color Flipper](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper) based on button click event.
 
 **Different phases of events - capture, target, bubble**
 When an event moves through the DOM - whether bubbling up or trickling down - it is called event propagation. The event propagates through the DOM tree.
@@ -90,7 +90,7 @@ username.addEventListener("blur", () => {
 
 ```
 
-You can check out the Demo for [Form Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Form%20Events).
+You can check out the Demo for [Form Events](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Form%20Events).
 
 
 ## Keyboard Events
@@ -102,9 +102,9 @@ There are 3 keyboard events:
 - keyup: It is triggered when any key is released after it's keydown event.
 - keypress: It is triggered when any key except Shift, Function, capsLock is in pressed position.
 
-You can check out the Demo for [Form Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Keyboard%20Events).
+You can check out the Demo for [Form Events](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Keyboard%20Events).
 
-You can also check out Demo for [Drum Kit](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/0_Projects/praveenoruganti-drum-kit)
+You can also check out Demo for [Drum Kit](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/0_Projects/praveenorugantitech-drum-kit)
 
 ## Mouse Events
 
@@ -150,9 +150,9 @@ btn.addEventListener("mousemove", () => {
 
 ```
 
-You can check out the Demo for [Mouse Events](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events).
+You can check out the Demo for [Mouse Events](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events).
 
-You can also check out the Demo for [Magic Color Changer](https://praveenoruganti.github.io/praveenoruganti-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer).
+You can also check out the Demo for [Magic Color Changer](https://praveenoruganti.github.io/praveenorugantitech-vanilla-js/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer).
 
 **Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
 
