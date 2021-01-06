@@ -17,7 +17,7 @@
 - [setTimeout() and clearTimeout()](https://praveenorugantitech.github.io/praveenorugantitech-javascript/15_setTimeout_clearTimeout)
 - [Callback, Promise, Async/Await](https://praveenorugantitech.github.io/praveenorugantitech-javascript/16_Callbacks_Promises_Async_Await)
 - [Projects](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects)
-- [Interview Questions](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Interview%20Questions)
+- [Interview Questions](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Interview%20Questions/Set1)
 
 **Note**: I will make sure to keep this updated
 
