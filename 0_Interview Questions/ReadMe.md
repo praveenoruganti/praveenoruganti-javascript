@@ -3,8 +3,8 @@
 **Note: I will include more questions regularly.**
 
 **Q1 Difference between let and var** <br>
-let came up in ES6, it is block scope and its not hoist.
-var is function scope and it is hoist.
+let came up in ES6, it is block scope and its not hoist.<br>
+var is function scope and it is hoist.<br>
 ```javascript
 let x1 = function () {
   if (true) {
@@ -19,7 +19,7 @@ let x1 = function () {
 x1();
 ```
 
-**Q2 Tell me the output for this**
+**Q2 Tell me the output for this** <br>
 
 ```javascript
 for (var count = 0; count < 5; count++) {
@@ -27,11 +27,11 @@ for (var count = 0; count < 5; count++) {
 }
 
 ```
-**Output** 5(5 times)
-**Explanation**
+**Output** 5(5 times) <br>
+**Explanation** <br>
  So as we know var is a functional scope element only. here we have for loop block.var will get hoist to global scope and get initial value of 0.Then setTimeout runs according to events loop condition by WebApi after completion of for loop. Result will be 5 for all the iterations as var has same global value all time
 
-**Q3 Can you make the output of the above question as sequential like 0,1,2,3,4 instead of 5 (5 times)?**
+**Q3 Can you make the output of the above question as sequential like 0,1,2,3,4 instead of 5 (5 times)?** <br>
 
 ``` javascript
 for (let count = 0; count < 5; count++) {
@@ -39,13 +39,13 @@ for (let count = 0; count < 5; count++) {
 }
 
 ```
-**Output** 0,1,2,3,4
-**Explanation**
+**Output** 0,1,2,3,4 <br>
+**Explanation** <br>
 So as we know let is a block scope element.here we have for loop block.let will get update with each iteration of for loop.Then setTimeout runs according to events loop condition by WebApi after completion of for loop.
 
-**Q4 Difference between let and const**
-const - cannot reassign value
-let - can reassign value
+**Q4 Difference between let and const** <br>
+**const** - cannot reassign value <br>
+**let** - can reassign value <br>
 ```javascript
 let l = 1;
 l = 2;
@@ -60,9 +60,9 @@ c1.push(3);
 console.log(c1); // Object can let me modify
 ```
 
-**Q5 Difference between == and ===**
-== just compares value
-=== compares value and type
+**Q5 Difference between == and ===** <br>
+**==** just compares value <br>
+**===** compares value and type <br>
 
 ```javascript
 if ("1" == 1) {
@@ -76,14 +76,14 @@ if ("1" === 1) {
 }
 ```
 
-**Q6 Difference between null and undefined**
-undefined - not assigning a value and its by default it is undefined , typeof(undefined) => undefined
-null - it is manually assigned by the user, typeof(null) => object
+**Q6 Difference between null and undefined** <br>
+**undefined** - not assigning a value and its by default it is undefined , typeof(undefined) => undefined <br>
+**null** - it is manually assigned by the user, typeof(null) => object <br>
 
-**Q7 console.log([] + []); **
-**Output** empty string
+**Q7 console.log([] + []);** <br>
+**Output** empty string <br>
 
-**Q8**
+**Q8** <br>
 ```javascript
 function a() {
   return "hello";
@@ -93,9 +93,9 @@ const sentence = a`hi`;
 console.log(sentence);
 ```
 
-**Output** hello
+**Output** hello <br>
 
-**Q9**
+**Q9** <br>
 ```javascript
 function y() {
   console.log(this.length);
@@ -111,30 +111,30 @@ var x = {
 x.method(y, 1); 
 
 ```
-**Output** 2
+**Output** 2 <br>
 
-**Q10**
+**Q10** <br>
 ```javascript
 const z = "constructor";
 console.log(z[z](01)); 
 ```
-**Output** 1
+**Output** 1 <br>
 
-**Q11 console.log(0.1 + 0.2); **
+**Q11 console.log(0.1 + 0.2);** <br>
 
-**Output** 0.30000000000000004
+**Output** 0.30000000000000004 <br>
 
-**Q12 console.log("hi".__proto__.__proto__._proto__);**
+**Q12 console.log("hi".__proto__.__proto__._proto__);** <br>
 
-**Q13 Function returns total number of arguments and dont use loops**
+**Q13 Function returns total number of arguments and dont use loops** <br>
 ```javascript
 let f = function () {
   return [].slice.call(arguments).length;
 };
-console.log(f(1, 2, 3, 5, 6)); // 5
+console.log(f(1, 2, 3, 5, 6)); // 5 <br>
 ```
 
-**Q14**
+**Q14** <br>
 ```javascript
 var A = {
   x: function () {
@@ -152,11 +152,11 @@ var A = {
 };
 A.x().y().z(); 
 ```
-**Output** x y z
+**Output** x y z <br>
 
-**Q15 Use of arrow function**
+**Q15 Use of arrow function** <br>
 
-Lets see an example
+Lets see an example <br>
 
 ```javascript
 const profile = {
@@ -193,7 +193,7 @@ console.log(profile1.firstName);
 
 ```
 
-**Q16 Prototypal Inheritance**
+**Q16 Prototypal Inheritance** <br>
 ```javascript
 let car = function (model) {
   this.model = model;
@@ -208,7 +208,7 @@ console.log(toyota.getModel());
 let nissan = new car("nissan");
 console.log(nissan.getModel());
 ```
-** Q17 Difference function declaration and function expression**
+**Q17 Difference function declaration and function expression** <br>
 ```javascript
 console.log(funcD());
 // console.log(funcE()); // ReferenceError: Cannot access 'funcE' before initialization
@@ -220,25 +220,25 @@ let funcE = function () {
 };
 ```
 
-**Q18**
+**Q18** <br>
 ```javascript
 console.log(2 + "2"); // 22
 console.log(2 - "2"); // 0
 ```
 
-**Q19**
+**Q19** <br>
 ```javascript
 let nums = [1, 2, 2, 4];
 console.log([...new Set(nums)]);
 ```
-**20**
+**20** <br>
 ```javascript
 console.log(true < 7); // true
 console.log(true > 5); // false
 // Here true is converted as 1 and then compares
 ```
 
-**Q21**
+**Q21** <br>
 ```javascript
 const a2 = () => arguments;
 // console.log(a2('hi'));
@@ -248,7 +248,7 @@ const a1 = (...num) => {
 };
 console.log(a1("hi"));
 ```
-**Q22 Prevent user to add more properties in Object**
+**Q22 Prevent user to add more properties in Object** <br>
 ```javascript
 let profile2 = {
   name: "Praveen Oruganti",
@@ -270,13 +270,13 @@ console.log(profile3);
 // another one we can use is Object.defineProperty()
 ```
 
-**Q23**
+**Q23** <br>
 ```javascript
 console.log(Math.max()); // -Infinity
 console.log(Math.max(1, 2, 3)); // 3
 ```
 
-**Q24 Longest Common Prefix**
+**Q24 Longest Common Prefix** <br>
 ```javascript
 function longestCommonPrefix(strs) {
   let prefix = "";
@@ -291,7 +291,7 @@ function longestCommonPrefix(strs) {
   return prefix;
 }
 ```
-**Q25 Palindrome**
+**Q25 Palindrome** <br>
 ```javascript
 function isPalindrome(x) {
   x = x.toString().split("");
@@ -306,7 +306,7 @@ function isPalindrome(x) {
   return true;
 }
 ```
-**Q26 Sum of first n numbers**
+**Q26 Sum of first n numbers** <br>
 
 ```javascript
 
@@ -326,7 +326,7 @@ function sumFirstN2(n) {
 
 ```
 
-**Q27 Write a JavaScript program to check two numbers and return true if one of the number is 100 or if the sum of the two numbers is 100**
+**Q27 Write a JavaScript program to check two numbers and return true if one of the number is 100 or if the sum of the two numbers is 100** <br>
 ```javascript
 const checkTwoNumbers = (num1, num2) =>
   num1 === 100 || num2 === 100 || num1 + num2 === 100;
@@ -338,13 +338,13 @@ console.log(checkTwoNumbers(40, 60)); // true
 console.log(checkTwoNumbers(80, 60)); // false
 ```
 
-**Q28 Write a JavaScript program to get the extension of a filename.**
+**Q28 Write a JavaScript program to get the extension of a filename.** <br>
 ```javascript
 const getFileExtension = (str) => str.split(".").pop();
 console.log(getFileExtension("op.java")); // java
 ```
 
-**Q29 Write a JavaScript program to replace every character in a given string with the character following it in the alphabet**
+**Q29 Write a JavaScript program to replace every character in a given string with the character following it in the alphabet** <br>
 ```javascript
 const alphabetCharShift = (str) => {
   const all_chars = str.split("");
@@ -359,8 +359,7 @@ const alphabetCharShift = (str) => {
 console.log(alphabetCharShift("abcdxyz")); // bcdeyza
 ```
 
-**Q30 Write a JavaScript program to get the current date.
-Expected Output : mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy**
+**Q30 Write a JavaScript program to get the current date.Expected Output : mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy** <br>
 
 ```javascript
 let today = new Date();
@@ -385,7 +384,7 @@ today = `${dd}/${mm}/${yyyy}`;
 console.log(today); // 03/12/2020
 ```
 
-**Q31 Write a JavaScript program to create a new string adding "New!" in front of a given string. If the given string begins with "New!" already then return the original string.**
+**Q31 Write a JavaScript program to create a new string adding "New!" in front of a given string. If the given string begins with "New!" already then return the original string.** <br>
 ```javascript
 const string_check = (str1) =>
   str1 === null || str1 === undefined || str1.substring(0, 4) === "New!"
@@ -396,7 +395,7 @@ console.log(string_check("New!Year")); // New!Year
 console.log(string_check("Year")); // New!Year
 ```
 
-**Q32  Create a new string from a given string taking the last 3 characters and added at both the front and back
+**Q32  Create a new string from a given string taking the last 3 characters and added at both the front and back** <br>
 ```javascript
 const append = (str) =>
   str.length >= 3
@@ -404,14 +403,14 @@ const append = (str) =>
     : str;
 console.log(append("hello")); // llohellollo
 ```
-**Q33 Write a JavaScript program to extract the first half of a string of even length.**
+**Q33 Write a JavaScript program to extract the first half of a string of even length.** <br>
 ```javascript
 const first_half = (str) =>
   str.length % 2 == 0 ? str.slice(0, str.length / 2) : str;
 console.log(first_half("suresh")); // sur
 ```
 
-**Q34 Write a JavaScript program to concatenate two strings except their first character.**
+**Q34 Write a JavaScript program to concatenate two strings except their first character.** <br>
 ```javascript
 const concatenate = (str1, str2) => {
   str1 = str1.substring(1, str1.length);
@@ -422,7 +421,7 @@ const concatenate = (str1, str2) => {
 console.log(concatenate("Praveen", "Oruganti")); // raveenruganti
 ```
 
-**Q35 Given two values, write a JavaScript program to find out which one is nearest to 100**
+**Q35 Given two values, write a JavaScript program to find out which one is nearest to 100** <br>
 ```javascript
 const near_100 = (x, y) => {
   if (x != y) {
@@ -444,7 +443,7 @@ console.log(near_100(100, 120)); // 100
 console.log(near_100(120, 140)); // 120
 ```
 
-**Q36 Check a given string contains 2 to 4 numbers of a specified character**
+**Q36 Check a given string contains 2 to 4 numbers of a specified character** <br>
 ```javascript
 const check_char = (str1, char) => {
   let ctr = 0;
@@ -466,7 +465,7 @@ console.log(check_char("Console", "e")); // false
 console.log(check_char("JavaScript", "S")); // false
 ```
 
-**Q37  Write a JavaScript program to find the number of even digits in a an array of integers**
+**Q37  Write a JavaScript program to find the number of even digits in a an array of integers** <br>
 
 ```javascript
 const even_digits = (num) => {
@@ -483,10 +482,10 @@ console.log(even_digits(1020)); // 3
 console.log(even_digits(102)); // 2
 ```
 
-**Q38 Write a JavaScript program to find the number of even values in sequence before the first occurrence of a given number.
-Sample sequence = [1,2,3,4,5,6,7,8]
-Given number: 5
-Output: 2**
+**Q38 Write a JavaScript program to find the number of even values in sequence before the first occurrence of a given number.** <br>
+Sample sequence = [1,2,3,4,5,6,7,8] <br>
+Given number: 5 <br>
+Output: 2 <br>
 ```javascript
 const find_numbers = (arr_num, num) => {
   let result = 0;
@@ -505,7 +504,7 @@ console.log(find_numbers([1, 2, 3, 4, 5, 6, 7, 8], 5)); // 2
 console.log(find_numbers([1, 3, 5, 6, 7, 8], 6)); // 0
 ```
 
-**Q39  Given a year, report if it is a leap year.**
+**Q39  Given a year, report if it is a leap year.** <br>
 ```javascript
 const leapYear = (year) =>
   year % 100 === 0 ? year % 400 === 0 : year % 4 === 0;
@@ -516,17 +515,17 @@ console.log(leapYear(1800)); // false
 console.log(leapYear(100)); // false
 ```
 
-**Q40 Write a JavaScript function that returns a passed string with letters in alphabetical order.
-Example string: 'webmaster'
-Expected Output: 'abeemrstw'**
+**Q40 Write a JavaScript function that returns a passed string with letters in alphabetical order.** <br>
+Example string: 'webmaster' <br>
+Expected Output: 'abeemrstw' <br>
 ```javascript
 const alphabetOrder = (str) => str.split("").sort().join("");
 console.log(alphabetOrder("webmaster")); // abeemrstw
 ```
 
-**Q41 Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
-Example string: 'The quick brown fox'
-Expected Output: 5**
+**Q41 Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.** <br>
+Example string: 'The quick brown fox' <br>
+Expected Output: 5 <br>
 ```javascript
 const vowelCount = (str1) => {
   let vowelList = "aeiouAEIOU";
@@ -542,9 +541,9 @@ const vowelCount = (str1) => {
 console.log(vowelCount("The quick brown fox")); // 5
 ```
 
-**Q42 Write a JavaScript function to convert an amount to coins.
-Example input: 46 and possible coins 25, 10, 5, 2, 1
-Output: 25, 10, 10, 1**
+**Q42 Write a JavaScript function to convert an amount to coins.** <br>
+Example input: 46 and possible coins 25, 10, 5, 2, 1 <br>
+Output: 25, 10, 10, 1 <br>
 
 ```javascript
 const amountToCoins = (amount, coins) => {
@@ -563,7 +562,7 @@ const amountToCoins = (amount, coins) => {
 console.log(amountToCoins(46, [25, 10, 5, 2, 1])); // [ 25, 10, 10, 1 ]
 ```
 
-**Q43 What is the order of the output of the letters and why ?**
+**Q43 What is the order of the output of the letters and why ?** <br>
 
 ```javascript
 console.log("a");
@@ -580,14 +579,14 @@ let d = setTimeout(function () {
 
 console.log("e");
 ```
-**Output**
-a
-e
-b
-d
-c
+**Output** <br>
+a <br>
+e <br>
+b <br>
+d <br>
+c <br>
 
-**Q44 what is the resulting output?**
+**Q44 what is the resulting output?** <br>
 ```javascript
 let num = 0;
 async function increment() {
@@ -600,12 +599,12 @@ num += 1;
 console.log(num);
 ```
 
-**Output**
-1
-2
+**Output** <br>
+1 <br>
+2 <br>
 
-**Q45 revealing module pattern**
-Turn this object literal into a module that only exposes the render method
+**Q45 revealing module pattern** <br>
+Turn this object literal into a module that only exposes the render method <br>
 ```javascript
 let myModule = {
      data:[],
@@ -624,7 +623,7 @@ let myModule = {
 myModule.render();
 ```
 
-We can write the module pattern as below
+We can write the module pattern as below <br>
 ```javascript
 
 let myModule = (function () {
@@ -652,7 +651,7 @@ myModule.render();
 // myModule._add(); // TypeError: myModule._add is not a function
 ```
 
-**Q46 determine if the function received the number of params it expected**
+**Q46 determine if the function received the number of params it expected** <br>
 
 ```javascript
 let f = function (y, z) {
@@ -675,9 +674,7 @@ f(1, 2); // we have a match
 f(1, 2, 3); // no match
 ```
 
-**Q47 ASI(Automatic Semicolon injection), object literals, square bracket syntax, hoisting
-what happens when you run this code? why?
-how would you fix it**
+**Q47 ASI(Automatic Semicolon injection), object literals, square bracket syntax, hoisting what happens when you run this code? why? how would you fix it** <br>
 
 ```javascript
 let a = {
@@ -688,7 +685,7 @@ let a = {
 
 ```
 
-Fix is automatic semicolon
+**Fix is automatic semicolon** <br>
 
 ```javascript
 let a = {
