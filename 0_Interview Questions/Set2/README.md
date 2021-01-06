@@ -3317,6 +3317,36 @@ The code block in the `else` statement gets run, and `They are the same!` gets l
 </p>
 </details>
 
+###### 105. What's the output?
+
+```javascript
+let randomValue = { name: "Lydia" }
+randomValue = 23
+
+if (!typeof randomValue === "string") {
+	console.log("It's not a string!")
+} else {
+	console.log("Yay it's a string!")
+}
+```
+
+- A: `It's not a string!`
+- B: `Yay it's a string!`
+- C: `TypeError`
+- D: `undefined`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: B
+
+The condition within the `if` statement checks whether the value of `!typeof randomValue` is equal to `"string"`. The `!` operator converts the value to a boolean value. If the value is truthy, the returned value will be `false`, if the value is falsy, the returned value will be `true`. In this case, the returned value of `typeof randomValue` is the truthy value `"number"`, meaning that the value of `!typeof randomValue` is the boolean value `false`.
+
+`!typeof randomValue === "string"` always returns false, since we're actually checking `false === "string"`. Since the condition returned `false`, the code block of the `else` statement gets run, and `Yay it's a string!` gets logged.
+
+</p>
+</details>
+
 
 ###### 106. What's its value?
 
@@ -4995,36 +5025,34 @@ The default value of `address` is an empty object `{}`. When we set the variable
 </details>
 
 
-
-###### 155. What's the output?
+###### 155. What's its value?
 
 ```javascript
-let randomValue = { name: "Lydia" }
-randomValue = 23
-
-if (!typeof randomValue === "string") {
-	console.log("It's not a string!")
-} else {
-	console.log("Yay it's a string!")
-}
+Promise.resolve(5);
 ```
 
-- A: `It's not a string!`
-- B: `Yay it's a string!`
-- C: `TypeError`
-- D: `undefined`
+- A: `5`
+- B: `Promise {<pending>: 5}`
+- C: `Promise {<fulfilled>: 5}`
+- D: `Error`
 
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: B
+#### Answer: C
 
-The condition within the `if` statement checks whether the value of `!typeof randomValue` is equal to `"string"`. The `!` operator converts the value to a boolean value. If the value is truthy, the returned value will be `false`, if the value is falsy, the returned value will be `true`. In this case, the returned value of `typeof randomValue` is the truthy value `"number"`, meaning that the value of `!typeof randomValue` is the boolean value `false`.
+We can pass any type of value we want to `Promise.resolve`, either a promise or a non-promise.
 
-`!typeof randomValue === "string"` always returns false, since we're actually checking `false === "string"`. Since the condition returned `false`, the code block of the `else` statement gets run, and `Yay it's a string!` gets logged.
+The method itself returns a promise with the resolved value (`<fulfilled>`). If you pass a regular function, it'll be a resolved promise with a regular value. 
+
+If you pass a promise, it'll be a resolved promise with the resolved value of that passed promise.
+
+In this case, we just passed the numerical value `5`. It returns a resolved promise with the value `5`.
 
 </p>
 </details>
+
+
 
 You can find more JavaScript interview questions [here](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Interview%20Questions/Set3)
 
