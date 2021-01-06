@@ -34,7 +34,7 @@ Here with my JavaScript Projects
 - [Memory Game](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-memory)
 - [Rock Paper Scissors Game](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-rock-paper-scissors)
 - [Minesweeper Game](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-minesweeper)
-- [Guess the number](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-guess-the-number)
+- [Guess My Number](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-guess-my-number)
 
 **Note:** I will continue to develop more JavaScript Projects and will update the same here going forward.
 
