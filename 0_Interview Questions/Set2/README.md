@@ -32,7 +32,7 @@ Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, do
 </p>
 </details>
 
----
+
 
 ###### 2. What's the output?
 
@@ -62,7 +62,7 @@ In the second loop, the variable `i` was declared using the `let` keyword: varia
 </p>
 </details>
 
----
+
 
 ###### 3. What's the output?
 
@@ -98,7 +98,7 @@ There is no value `radius` on that object, which returns `NaN`.
 </p>
 </details>
 
----
+
 
 ###### 4. What's the output?
 
@@ -123,7 +123,7 @@ The string `'Lydia'` is a truthy value. What we're actually asking, is "is this 
 </p>
 </details>
 
----
+
 
 ###### 5. Which one is true?
 
@@ -159,7 +159,7 @@ However, with dot notation, this doesn't happen. `mouse` does not have a key cal
 </p>
 </details>
 
----
+
 
 ###### 6. What's the output?
 
@@ -194,7 +194,7 @@ When you change one object, you change all of them.
 </p>
 </details>
 
----
+
 
 ###### 7. What's the output?
 
@@ -227,7 +227,7 @@ However, when we use the `===` operator, both value _and_ type should be the sam
 </p>
 </details>
 
----
+
 
 ###### 8. What's the output?
 
@@ -262,7 +262,7 @@ The `colorChange` function is static. Static methods are designed to live only o
 </p>
 </details>
 
----
+
 
 ###### 9. What's the output?
 
@@ -288,7 +288,7 @@ In order to avoid this, we can use `"use strict"`. This makes sure that you have
 </p>
 </details>
 
----
+
 
 ###### 10. What happens when we do this?
 
@@ -317,7 +317,7 @@ A function is a special type of object. The code you write yourself isn't the ac
 </p>
 </details>
 
----
+
 
 ###### 11. What's the output?
 
@@ -358,7 +358,7 @@ Person.prototype.getFullName = function() {
 </p>
 </details>
 
----
+
 
 ###### 12. What's the output?
 
@@ -392,7 +392,7 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
 </p>
 </details>
 
----
+
 
 ###### 13. What are the three phases of event propagation?
 
@@ -413,7 +413,7 @@ During the **capturing** phase, the event goes through the ancestor elements dow
 </p>
 </details>
 
----
+
 
 ###### 14. All object have prototypes.
 
@@ -430,7 +430,7 @@ All objects have prototypes, except for the **base object**. The base object is 
 </p>
 </details>
 
----
+
 
 ###### 15. What's the output?
 
@@ -459,7 +459,7 @@ In this example, JavaScript converts the number `1` into a string, in order for 
 </p>
 </details>
 
----
+
 
 ###### 16. What's the output?
 
@@ -495,7 +495,7 @@ This returns `0 2 2`.
 </p>
 </details>
 
----
+
 
 ###### 17. What's the output?
 
@@ -526,7 +526,7 @@ If you use tagged template literals, the value of the first argument is always a
 </p>
 </details>
 
----
+
 
 ###### 18. What's the output?
 
@@ -562,7 +562,7 @@ This is why both `{ age: 18 } === { age: 18 }` and `{ age: 18 } == { age: 18 }` 
 </p>
 </details>
 
----
+
 
 ###### 19. What's the output?
 
@@ -589,7 +589,7 @@ The rest parameter (`...args`) lets us "collect" all remaining arguments into an
 </p>
 </details>
 
----
+
 
 ###### 20. What's the output?
 
@@ -618,7 +618,7 @@ With `"use strict"`, you can make sure that you don't accidentally declare globa
 </p>
 </details>
 
----
+
 
 ###### 21. What's the value of `sum`?
 
@@ -641,7 +641,7 @@ const sum = eval('10*10+5');
 </p>
 </details>
 
----
+
 
 ###### 22. How long is cool_secret accessible?
 
@@ -666,7 +666,7 @@ If you used `localStorage`, the data would've been there forever, unless for exa
 </p>
 </details>
 
----
+
 
 ###### 23. What's the output?
 
@@ -694,7 +694,7 @@ You cannot do this with `let` or `const` since they're block-scoped.
 </p>
 </details>
 
----
+
 
 ###### 24. What's the output?
 
@@ -725,7 +725,7 @@ It doesn't work that way for a set. There is no `'1'` in our set: `set.has('1')`
 </p>
 </details>
 
----
+
 
 ###### 25. What's the output?
 
@@ -749,7 +749,7 @@ If you have two keys with the same name, the key will be replaced. It will still
 </p>
 </details>
 
----
+
 
 ###### 26. The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
 
@@ -767,7 +767,7 @@ The base execution context is the global execution context: it's what's accessib
 </p>
 </details>
 
----
+
 
 ###### 27. What's the output?
 
@@ -793,7 +793,7 @@ The `continue` statement skips an iteration if a certain condition returns `true
 </p>
 </details>
 
----
+
 
 ###### 28. What's the output?
 
@@ -822,7 +822,7 @@ name.giveLydiaPizza();
 </p>
 </details>
 
----
+
 
 ###### 29. What's the output?
 
@@ -856,7 +856,7 @@ Then, we log `a[b]`, which is actually `a["[object Object]"]`. We just set that 
 </p>
 </details>
 
----
+
 
 ###### 30. What's the output?
 
@@ -909,7 +909,7 @@ This is where an event loop starts to work. An **event loop** looks at the stack
 </p>
 </details>
 
----
+
 
 ###### 31. What is the event.target when clicking the button?
 
@@ -938,7 +938,7 @@ The deepest nested element that caused the event is the target of the event. You
 </p>
 </details>
 
----
+
 
 ###### 32. When you click the paragraph, what's the logged output?
 
@@ -965,7 +965,7 @@ If we click `p`, we see two logs: `p` and `div`. During event propagation, there
 </p>
 </details>
 
----
+
 
 ###### 33. What's the output?
 
@@ -997,7 +997,7 @@ With both, we can pass the object to which we want the `this` keyword to refer t
 </p>
 </details>
 
----
+
 
 ###### 34. What's the output?
 
@@ -1026,7 +1026,7 @@ FYI: there are only 7 built-in types: `null`, `undefined`, `boolean`, `number`, 
 </p>
 </details>
 
----
+
 
 ###### 35. Which of these values are falsy?
 
@@ -1065,7 +1065,7 @@ Function constructors, like `new Number` and `new Boolean` are truthy.
 </p>
 </details>
 
----
+
 
 ###### 36. What's the output?
 
@@ -1089,7 +1089,7 @@ console.log(typeof typeof 1);
 </p>
 </details>
 
----
+
 
 ###### 37. What's the output?
 
@@ -1118,7 +1118,7 @@ depending on where you run it (it's different for every browser, node, etc.)
 </p>
 </details>
 
----
+
 
 ###### 38. What's the output?
 
@@ -1155,7 +1155,7 @@ Outside of the `catch` block, `x` is still `undefined`, and `y` is `2`. When we 
 </p>
 </details>
 
----
+
 
 ###### 39. Everything in JavaScript is either a...
 
@@ -1178,7 +1178,7 @@ What differentiates a primitive from an object is that primitives do not have an
 </p>
 </details>
 
----
+
 
 ###### 40. What's the output?
 
@@ -1208,7 +1208,7 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 </p>
 </details>
 
----
+
 
 ###### 41. What's the output?
 
@@ -1237,7 +1237,7 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 </p>
 </details>
 
----
+
 
 ###### 42. What does the `setInterval` method return in the browser?
 
@@ -1260,7 +1260,7 @@ It returns a unique id. This id can be used to clear that interval with the `cle
 </p>
 </details>
 
----
+
 
 ###### 43. What does this return?
 
@@ -1283,7 +1283,7 @@ A string is an iterable. The spread operator maps every character of an iterable
 </p>
 </details>
 
----
+
 
 ###### 44. What's the output?
 
@@ -1318,7 +1318,7 @@ Then, we invoke the function again with the `next()` method. It starts to contin
 </p>
 </details>
 
----
+
 
 ###### 45. What does this return?
 
@@ -1349,7 +1349,7 @@ When we pass multiple promises to the `Promise.race` method, it resolves/rejects
 </p>
 </details>
 
----
+
 
 ###### 46. What's the output?
 
@@ -1388,7 +1388,7 @@ We are only modifying the value of the `person` variable, and not the first elem
 </p>
 </details>
 
----
+
 
 ###### 47. What's the output?
 
@@ -1418,7 +1418,7 @@ With a `for-in` loop, we can iterate through object keys, in this case `name` an
 </p>
 </details>
 
----
+
 
 ###### 48. What's the output?
 
@@ -1445,7 +1445,7 @@ Operator associativity is the order in which the compiler evaluates the expressi
 </p>
 </details>
 
----
+
 
 ###### 49. What's the value of `num`?
 
@@ -1470,7 +1470,7 @@ Only the first numbers in the string is returned. Based on the _radix_ (the seco
 </p>
 </details>
 
----
+
 
 ###### 50. What's the output?
 
@@ -1498,7 +1498,7 @@ However, we don’t return a value. When we don’t return a value from the func
 </p>
 </details>
 
----
+
 
 ###### 51. What's the output?
 
@@ -1535,7 +1535,7 @@ The value of `person` is an object. The argument `member` has a (copied) referen
 </p>
 </details>
 
----
+
 
 ###### 52. What's the output?
 
@@ -1573,7 +1573,7 @@ With the `catch` statement, we can specify what to do if an exception is thrown 
 </p>
 </details>
 
----
+
 
 ###### 53. What's the output?
 
@@ -1602,7 +1602,7 @@ When you return a property, the value of the property is equal to the _returned_
 </p>
 </details>
 
----
+
 
 ###### 54. What's the output?
 
@@ -1641,7 +1641,7 @@ However, we created a global variable `y` when setting `y` equal to `10`. This v
 </p>
 </details>
 
----
+
 
 ###### 55. What's the output?
 
@@ -1682,7 +1682,7 @@ When we try to invoke something that is not a function, a `TypeError` is thrown.
 </p>
 </details>
 
----
+
 
 ###### 56. What's the output?
 
@@ -1709,7 +1709,7 @@ We passed the iterable `[1, 1, 2, 3, 4]` with a duplicate value `1`. Since we ca
 </p>
 </details>
 
----
+
 
 ###### 57. What's the output?
 
@@ -1745,7 +1745,7 @@ When we try to increment the value of `myCounter`, it throws an error: `myCounte
 </p>
 </details>
 
----
+
 
 ###### 58. What's the output?
 
@@ -1774,7 +1774,7 @@ The `name` variable was declared with a `const` keyword, so its deletion is not 
 </p>
 </details>
 
----
+
 
 ###### 59. What's the output?
 
@@ -1816,7 +1816,7 @@ This means that the value of `y` is equal to the first value in the array, which
 </p>
 </details>
 
----
+
 
 ###### 60. What's the output?
 
@@ -1842,7 +1842,7 @@ It's possible to combine objects using the spread operator `...`. It lets you cr
 </p>
 </details>
 
----
+
 
 ###### 61. What's the output?
 
@@ -1872,7 +1872,7 @@ Properties added using the `defineProperty` method are immutable by default. You
 </p>
 </details>
 
----
+
 
 ###### 62. What's the output?
 
@@ -1906,7 +1906,7 @@ If the replacer is a _function_, this function gets called on every property in 
 </p>
 </details>
 
----
+
 
 ###### 63. What's the output?
 
@@ -1940,7 +1940,7 @@ The unary operator `++` _first returns_ the value of the operand, _then incremen
 </p>
 </details>
 
----
+
 
 ###### 64. What's the output?
 
@@ -1978,7 +1978,7 @@ The fourth time, we pass the `value` object again. `x.number` was previously mod
 </p>
 </details>
 
----
+
 
 ###### 65. What's the output?
 
@@ -2011,7 +2011,7 @@ On the fourth call, we again don't return from the callback function. The accumu
 </p>
 </details>
   
----
+
 
 ###### 66. With which constructor can we successfully extend the `Dog` class?
 
@@ -2065,7 +2065,7 @@ The `Labrador` class receives two arguments, `name` since it extends `Dog`, and 
 </p>
 </details>
 
----
+
 
 ###### 67. What's the output?
 
@@ -2097,7 +2097,7 @@ This is a difference between `require()` in CommonJS and `import`! With `require
 </p>
 </details>
 
----
+
 
 ###### 68. What's the output?
 
@@ -2122,7 +2122,7 @@ Every Symbol is entirely unique. The purpose of the argument passed to the Symbo
 </p>
 </details>
 
----
+
 
 ###### 69. What's the output?
 
@@ -2149,7 +2149,7 @@ If the argument passed to the `padStart` method is smaller than the length of th
 </p>
 </details>
 
----
+
 
 ###### 70. What's the output?
 
@@ -2172,7 +2172,7 @@ With the `+` operator, you can concatenate strings. In this case, we are concate
 </p>
 </details>
 
----
+
 
 ###### 71. How can we log the values that are commented out after the console.log statement?
 
@@ -2209,7 +2209,7 @@ When we call `game.next("Yes").value`, the previous `yield` is replaced with the
 </p>
 </details>
 
----
+
 
 ###### 72. What's the output?
 
@@ -2244,7 +2244,7 @@ In this case, the string is `Hello\nworld`, which gets logged.
 </p>
 </details>
 
----
+
 
 ###### 73. What's the output?
 
@@ -2278,7 +2278,7 @@ This would've logged `"I made it!"`
 </p>
 </details>
 
----
+
 
 ###### 74. What's the output?
 
@@ -2308,7 +2308,7 @@ The `push` method modifies the original array. If you wanted to return the _arra
 </p>
 </details>
 
----
+
 
 ###### 75. What's the output?
 
@@ -2342,7 +2342,7 @@ Since `shape` is frozen, and since the value of `x` is not an object, we cannot 
 </p>
 </details>
 
----
+
 
 ###### 76. What's the output?
 
@@ -2371,7 +2371,7 @@ Since we try to log `name`, a variable that is not defined, a ReferenceError get
 </p>
 </details>
 
----
+
 
 ###### 77. Is this a pure function?
 
@@ -2396,7 +2396,7 @@ The `sum` function always returns the same result. If we pass `1` and `2`, it wi
 </p>
 </details>
 
----
+
 
 ###### 78. What is the output?
 
@@ -2443,7 +2443,7 @@ The third time, we pass `5 * 2` to the function which gets evaluated to `10`. Th
 </p>
 </details>
 
----
+
 
 ###### 79. What is the output?
 
@@ -2480,7 +2480,7 @@ With a _for-of_ loop, we can iterate over **iterables**. An array is an iterable
 </p>
 </details>
 
----
+
 
 ###### 80. What is the output?
 
@@ -2506,7 +2506,7 @@ The element will be equal to the returned value. `1 + 2` returns `3`, `1 * 2` re
 </p>
 </details>
 
----
+
 
 ###### 81. What is the output?
 
@@ -2539,7 +2539,7 @@ In this case, if we didn't pass a value or if we passed `undefined`, `name` woul
 </p>
 </details>
 
----
+
 
 ###### 82. What is the output?
 
@@ -2578,7 +2578,7 @@ With the `call` method, we can change the object to which the `this` keyword ref
 </p>
 </details>
 
----
+
 
 ###### 83. What is the output?
 
@@ -2615,7 +2615,7 @@ When logging the `person` object, the unmodified object gets returned.
 </p>
 </details>
 
----
+
 
 ###### 84. What is the output?
 
@@ -2648,7 +2648,7 @@ Variables with the `const` and `let` keyword are _block-scoped_. A block is anyt
 </p>
 </details>
 
----
+
 
 ###### 85. What kind of information would get logged?
 
@@ -2673,7 +2673,7 @@ The value of `res` in the second `.then` is equal to the returned value of the p
 </p>
 </details>
 
----
+
 
 ###### 86. Which option is a way to set `hasName` equal to `true`, provided you cannot pass `true` as an argument?
 
@@ -2704,7 +2704,7 @@ By setting `hasName` equal to `name`, you set `hasName` equal to whatever value 
 </p>
 </details>
 
----
+
 
 ###### 87. What's the output?
 
@@ -2729,7 +2729,7 @@ Note that this method is not supported in IE7 and below. In that case, use `.cha
 </p>
 </details>
 
----
+
 
 ###### 88. What's the output?
 
@@ -2758,7 +2758,7 @@ If you're trying to set a default parameter's value equal to a parameter which i
 </p>
 </details>
 
----
+
 
 ###### 89. What's the output?
 
@@ -2790,7 +2790,7 @@ The `data` object has a `default` property for the default export, other propert
 </p>
 </details>
 
----
+
 
 ###### 90. What's the output?
 
@@ -2828,7 +2828,7 @@ Calling a function constructor with `new` results in the creation of an instance
 </p>
 </details>
 
----
+
 
 ###### 91. What's the output?
 
@@ -2855,7 +2855,7 @@ Then, we try to use the `.push` method on `newList`. Since `newList` is the nume
 </p>
 </details>
 
----
+
 
 ###### 92. What's the output?
 
@@ -2886,7 +2886,7 @@ Regular functions, such as the `giveLydiaPizza` function, have a `prototype` pro
 </p>
 </details>
 
----
+
 
 ###### 93. What's the output?
 
@@ -2923,7 +2923,7 @@ The second subarray is `[ "age", 21 ]`, with `x` equal to `"age"`, and `y` equal
 </p>
 </details>
 
----
+
 
 ###### 94. What's the output?
 
@@ -2960,7 +2960,7 @@ The above example works. This returns the array `[ 'banana', 'apple', 'orange', 
 </p>
 </details>
 
----
+
 
 ###### 95. What's the output?
 
@@ -3000,7 +3000,7 @@ This means that `a + b` is never reached, since a function stops running after t
 </p>
 </details>
 
----
+
 
 ###### 96. What's the output?
 
@@ -3036,7 +3036,7 @@ We can set classes equal to other classes/function constructors. In this case, w
 </p>
 </details>
 
----
+
 
 ###### 97. What's the output?
 
@@ -3066,7 +3066,7 @@ This is one of the many qualities of a symbol: besides representing an entirely 
 </p>
 </details>
 
----
+
 
 ###### 98. What's the output?
 
@@ -3106,7 +3106,7 @@ Since no value gets returned in this case, the function returns `undefined`.
 </p>
 </details>
 
----
+
 
 ###### 99. What's the output?
 
@@ -3136,7 +3136,7 @@ ReferenceErrors get thrown when JavaScript isn't able to find a reference to a v
 </p>
 </details>
 
----
+
 
 ###### 100. What's the value of output?
 
@@ -3164,7 +3164,7 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 </p>
 </details>
 
----
+
 
 ###### 101. What's the value of output?
 
@@ -3197,7 +3197,7 @@ With the `||` operator, we can return the first truthy operand. If all values ar
 </p>
 </details>
 
----
+
 
 ###### 102. What's the value of output?
 
@@ -3241,7 +3241,7 @@ This means that it waited for the `myPromise` to resolve with the value `I have 
 </p>
 </details>
 
----
+
 
 ###### 103. What's the value of output?
 
@@ -3278,7 +3278,7 @@ However, the second one is a string `"Lydia"`. `"Lydia"` is a string and `2` is 
 </p>
 </details>
 
----
+
 
 ###### 104. What's its value?
 
@@ -3303,7 +3303,6 @@ In this case, we just passed the numerical value `5`. It returns a resolved prom
 </p>
 </details>
 
----
 
 ###### 105. What's its value?
 
@@ -3342,7 +3341,7 @@ The code block in the `else` statement gets run, and `They are the same!` gets l
 </p>
 </details>
 
----
+
 
 ###### 106. What's its value?
 
@@ -3379,7 +3378,7 @@ JavaScript interprets (or unboxes) statements. When we use bracket notation, it 
 </p>
 </details>
 
----
+
 
 ###### 107. What's its value?
 
@@ -3400,7 +3399,7 @@ Under the hood, emojis are unicodes. The unicodes for the heart emoji is `"U+276
 </p>
 </details>
 
----
+
 
 ###### 108. Which of these methods modifies the original array?
 
@@ -3432,7 +3431,7 @@ With `splice` method, we modify the original array by deleting, replacing or add
 </p>
 </details>
 
----
+
 
 ###### 109. What's the output?
 
@@ -3464,7 +3463,7 @@ Then, we change the value of the `favoriteFood` property on the `info` object. T
 </p>
 </details>
 
----
+
 
 ###### 110. What does this method do?
 
@@ -3501,7 +3500,7 @@ JSON.parse(jsonArray); // { name: 'Lydia' }
 </p>
 </details>
 
----
+
 
 ###### 111. What's the output?
 
@@ -3545,7 +3544,7 @@ getName(); // Lydia
 </p>
 </details>
 
----
+
 
 ###### 112. What's the output?
 
@@ -3596,7 +3595,7 @@ console.log(two.next().value); // undefined
 </p>
 </details>
 
----
+
 
 ###### 113. What's the output?
 
@@ -3619,7 +3618,7 @@ Expressions within template literals are evaluated first. This means that the st
 </p>
 </details>
 
----
+
 
 ###### 114. What will happen?
 
@@ -3648,7 +3647,7 @@ Normally when we set objects equal to `null`, those objects get _garbage collect
 </p>
 </details>
 
----
+
 
 ###### 115. Which method(s) will return the value `'Hello world!'`?
 
@@ -3684,7 +3683,7 @@ When adding a key/value pair using the `set` method, the key will be the value o
 </p>
 </details>
 
----
+
 
 ###### 116. What's the output?
 
@@ -3725,7 +3724,7 @@ Then, we invoke the `changeAgeAndName` function, however we don't pass a paramet
 </p>
 </details>
 
----
+
 
 ###### 117. Which of the following options will return `6`?
 
@@ -3750,7 +3749,7 @@ With the spread operator `...`, we can _spread_ iterables to individual elements
 </p>
 </details>
 
----
+
 
 ###### 118. What's the output?
 
@@ -3776,7 +3775,7 @@ With the `+=` operand, we're incrementing the value of `num` by `1`. `num` had t
 </p>
 </details>
 
----
+
 
 ###### 119. What's the output?
 
@@ -3819,7 +3818,7 @@ With the optional chaining operator `?.`, we no longer have to explicitly check 
 </p>
 </details>
 
----
+
 
 ###### 120. What's the output?
 
@@ -3848,7 +3847,7 @@ We passed the condition `groceries.indexOf("banana")` to the if-statement. `groc
 </p>
 </details>
 
----
+
 
 ###### 121. What's the output?
 
@@ -3878,7 +3877,7 @@ The `language` method is a `setter`. Setters don't hold an actual value, their p
 </p>
 </details>
 
----
+
 
 ###### 122. What's the output?
 
@@ -3906,7 +3905,7 @@ console.log(!typeof name === 'string');
 </p>
 </details>
 
----
+
 
 ###### 123. What's the output?
 
@@ -3934,7 +3933,7 @@ The `add` function returns an arrow function, which returns an arrow function, w
 </p>
 </details>
 
----
+
 
 ###### 124. What's the output?
 
@@ -3968,7 +3967,7 @@ The generator function `range` returns an async object with promises for each it
 </p>
 </details>
 
----
+
 
 ###### 125. What's the output?
 
@@ -3995,7 +3994,7 @@ myFunc(1, 2, 3);
 </p>
 </details>
 
----
+
 
 ###### 126. What's the output?
 
@@ -4032,7 +4031,7 @@ With the `Intl.NumberFormat` method, we can format numeric values to any locale.
 </p>
 </details>
 
----
+
 
 ###### 127. What's the output?
 
@@ -4058,7 +4057,7 @@ By destructuring objects, we can unpack values from the right-hand object, and a
 </p>
 </details>
 
----
+
 
 ###### 128. What's the output?
 
@@ -4090,7 +4089,7 @@ With the `isNaN` method, you can check if the value you pass is not a number. `n
 </p>
 </details>
 
----
+
 
 ###### 129. What's the output?
 
@@ -4120,7 +4119,7 @@ Variables declared with the `const` keyword are not referencable before their in
 </p>
 </details>
 
----
+
 
 ###### 130. What's the output?
 
@@ -4153,7 +4152,7 @@ In the `try` block, we're logging the awaited value of the `myPromise` variable:
 </p>
 </details>
 
----
+
 
 ###### 131. What's the output?
 
@@ -4178,7 +4177,7 @@ With the `flat` method, we can create a new, flattened array. The depth of the f
 </p>
 </details>
 
----
+
 
 ###### 132. What's the output?
 
@@ -4226,7 +4225,7 @@ We invoke the `counterTwo.increment()`, which sets the `count` to `3`. Then, we 
 </p>
 </details>
 
----
+
 
 ###### 133. What's the output?
 
@@ -4273,7 +4272,7 @@ We get to the last line of `funcTwo`, which logs `Last line!` to the console. No
 </p>
 </details>
 
----
+
 
 ###### 134. How can we invoke `sum` in `index.js` from `sum.js?`
 
@@ -4331,7 +4330,7 @@ We can invoke this function, by calling `sum.default`
 </p>
 </details>
 
----
+
 
 ###### 135. What's the output?
 
@@ -4368,7 +4367,7 @@ Then, we access a property value on the proxy object, the `get` property on the 
 </p>
 </details>
 
----
+
 
 ###### 136. Which of the following will modify the `person` object?
 
@@ -4395,7 +4394,7 @@ However, you can still modify the value of existing properties.
 </p>
 </details>
 
----
+
 
 ###### 137. Which of the following will modify the `person` object?
 
@@ -4427,7 +4426,7 @@ However, it only _shallowly_ freezes the object, meaning that only _direct_ prop
 </p>
 </details>
 
----
+
 
 ###### 138. What's the output?
 
@@ -4459,7 +4458,7 @@ Then, we invoked `myFunc(3)` and passed the value `3` as the value for the argum
 </p>
 </details>
 
----
+
 
 ###### 139. What's the output?
 
@@ -4497,7 +4496,7 @@ In ES2020, we can add private variables in classes by using the `#`. We cannot a
 </p>
 </details>
 
----
+
 
 ###### 140. What's missing?
 
@@ -4541,7 +4540,7 @@ If we would've written `yield`, `return yield`, or `return`, the entire generato
 </p>
 </details>
 
----
+
 
 ###### 141. What's the output?
 
@@ -4586,7 +4585,7 @@ After pushing `dancing` and `baking`, the value of `person.hobbies` is `["coding
 </p>
 </details>
 
----
+
 
 ###### 142. What's the output?
 
@@ -4622,7 +4621,7 @@ We create the variable `pet` which is an instance of the `Flamingo` class. When 
 </p>
 </details>
 
----
+
 
 ###### 143. Which of the options result(s) in an error?
 
@@ -4650,7 +4649,7 @@ The `const` keyword simply means we cannot _redeclare_ the value of that variabl
 </p>
 </details>
 
----
+
 
 ###### 144. What do we need to add to the `person` object to get `["Lydia Hallie", 21]` as the output of `[...person]`?
 
@@ -4678,7 +4677,7 @@ Objects aren't iterable by default. An iterable is an iterable if the iterator p
 </p>
 </details>
 
----
+
 
 ###### 145. What's the output?
 
@@ -4708,7 +4707,7 @@ The `if` condition within the `forEach` loop checks whether the value of `num` i
 </p>
 </details>
 
----
+
 
 ###### 146. What's the output?
 
@@ -4743,7 +4742,7 @@ Lastly, we're trying to log the second item in the `['🍊', '🍌']` subarray o
 </p>
 </details>
 
----
+
 
 ###### 147. What's the output?
 
@@ -4779,7 +4778,7 @@ We set the variable `calc` equal to a new instance of the `Calc` class. Then, we
 </p>
 </details>
 
----
+
 
 ###### 148. What's the output?
 
@@ -4821,7 +4820,7 @@ The `updateUser` function updates the values of the `email` and `password` prope
 </p>
 </details>
 
----
+
 
 ###### 149. What's the output?
 
@@ -4852,7 +4851,7 @@ At last, we invoke the `unshift` method on the `fruit` array, which modifies the
 </p>
 </details>
 
----
+
 
 ###### 150. What's the output?
 
@@ -4888,7 +4887,7 @@ Logging `animals[dog]`, or actually `animals["object Object"]` since converting 
 </p>
 </details>
 
----
+
 
 ###### 151. What's the output?
 
@@ -4919,7 +4918,7 @@ The `updateEmail` function is an arrow function, and is not bound to the `user` 
 </p>
 </details>
 
----
+
 
 ###### 152. What's the output?
 
@@ -4955,7 +4954,7 @@ The `Promise.all` method runs the passed promises in parallel. If one promise fa
 </p>
 </details>
 
----
+
 
 ###### 153. What should the value of `method` be to log `{ name: "Lydia", age: 22 }`? 
 
@@ -4986,7 +4985,7 @@ This creates an array of subarrays containing the correct keys and values, which
 </p>
 </details>
 
----
+
 
 ###### 154. What's the output?
 
@@ -5020,7 +5019,7 @@ The default value of `address` is an empty object `{}`. When we set the variable
 </p>
 </details>
 
----
+
 
 ###### 155. What's the output?
 
