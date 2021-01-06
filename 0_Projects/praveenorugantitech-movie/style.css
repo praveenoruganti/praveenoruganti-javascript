@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+:root{
+    --primary-color: #ADD8E600;
+    --secondary-color:black;
+}
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    background-color: var(--secondary-color);
+    
+}
+
+.container{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+
+header .container{
+    padding:18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    color:#fff
+}
+
+.search{
+    background-color: transparent;
+    border-radius: 50px;
+    height: 30px;
+    border : 1px solid rgb(68, 70, 80);
+    box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+    font-family: inherit;
+    color:white;
+    padding:15px;
+    outline: none;
+}
+
+.search::placeholder{
+    color:#00FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.movie{
+    width:300px;
+    margin:1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;  
+    display:flex;
+    flex-direction: column;
+}
+
+.movie img{
+    width: 100%;
+    flex-grow: 1;
+}
+
+.movie-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    color:#fff;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+
+.movie-info span{
+    background-color: var(--primary-color);
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+.movie-info span.green{
+    color: rgb(78, 116, 40);
+}
+
+.movie-info span.orange{
+    color: rgb(237, 108, 79);
+}
+
+.movie-info span.red{
+    color: rgb(255, 15, 7);
+}
+
+.overview{
+    background-color: #fff;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:10px 16px;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
+

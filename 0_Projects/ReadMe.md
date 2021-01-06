@@ -27,6 +27,7 @@ Here with my JavaScript Projects
 - [GitHub Search](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-github-search)
 - [Jokes](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-jokes)
 - [Weather](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-weather)
+- [Movie](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-movie)
 - [Expanding Cards](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-expanding-cards)
 - [Flex Panel Gallery](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-flex-panel-gallery)
 - [Tic Tac Toe Game](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-tic-tac-toe)
