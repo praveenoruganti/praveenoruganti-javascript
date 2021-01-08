@@ -21,7 +21,7 @@ function showMovies(movies){
         const{title,poster_path,vote_average,overview} = movie;
         const movieEL = document.createElement('div');
         movieEL.classList.add('movie')
-        const imagePath = poster_path !== null ? `<img src="${IMG_PATH + poster_path}" alt = "${title}">` : `<img src="noposter.jpg">`;
+        const imagePath = poster_path ? `<img src="${IMG_PATH + poster_path}" alt = "${title}">` : `<img src="noposter.jpg">`;
         movieEL.innerHTML = `
         ${imagePath}
                 <div class="movie-info">
