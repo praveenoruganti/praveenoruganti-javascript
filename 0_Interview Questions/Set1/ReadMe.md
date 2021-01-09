@@ -699,7 +699,7 @@ let a = {
 
 ```
 
-You can find more JavaScript interview questions [here](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Interview%20Questions/Set2)
+You can find more JavaScript interview questions [here](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Interview%20Questions/Set2){:target="_blank"}
 
 
 

@@ -203,7 +203,7 @@ if (num > 0) {
 }
 
 ```
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/6_Functions/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/6_Functions/Demo){:target="_blank"}.
 
 
 

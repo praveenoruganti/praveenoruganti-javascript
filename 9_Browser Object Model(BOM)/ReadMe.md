@@ -75,5 +75,5 @@ console.log(location.pathname);
 console.log(location.search);
 location.assign("https://praveenorugantitech.blogspot.com");
 ```
-You can also check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/9_Browser%20Object%20Model(BOM)/Demo).
+You can also check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/9_Browser%20Object%20Model(BOM)/Demo){:target="_blank"}.
 

@@ -94,7 +94,7 @@ btnPause.addEventListener("click", function () {
 
 ```
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/12_setInterval_clearInterval/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/12_setInterval_clearInterval/Demo){:target="_blank"}.
 
 ![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/images/setInterval%20and%20clearInterval.PNG)
 

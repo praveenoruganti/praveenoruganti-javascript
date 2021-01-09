@@ -185,7 +185,7 @@ console.log(num3); // ReferenceError: num3 is not defined
 
 ```
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/1_Introduction/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/1_Introduction/Demo){:target="_blank"}.
 
 
 

@@ -21,8 +21,8 @@ HTML DOM properties are values (of HTML elements) that you can set or change.
 
 **Lets see different concepts in DOM**
 
-- [All About Modifying HTML Elements](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/1_HTML%20Elements)
-- [All About Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events)
+- [All About Modifying HTML Elements](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/1_HTML%20Elements){:target="_blank"}
+- [All About Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events){:target="_blank"}
 
 
 

@@ -306,7 +306,7 @@ for (let i in string) {
 }
 ```
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/3_Data%20Types/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/3_Data%20Types/Demo){:target="_blank"}.
 
 
 

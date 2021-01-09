@@ -92,7 +92,7 @@ btnCancelMsg.addEventListener("click", function () {
 
 ```
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/15_setTimeout_clearTimeout/Demo).
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/15_setTimeout_clearTimeout/Demo){:target="_blank"}.
 
 ![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/images/setTimeout%20and%20clearTimeout.PNG)
 
