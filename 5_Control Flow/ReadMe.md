@@ -1,5 +1,17 @@
 # JavaScript Control Flow
 
+The control flow within JavaScript allow the program flow to change within a unit of code or function. These statements can determine whether or not given statements are executed—and provide the basis for the repeated execution of a block of code.
+
+The flow of control through any given function is implemented with three basic types of control flow:
+- Sequential: default mode
+- Selection: used for decisions, branching—choosing between two or more alternative paths
+- Repetition: used for looping (i.e., repeating a piece of code multiple times in a row)
+
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/5_Control%20Flow/images/screenshot.jpg)
+
+
+# Conditional control statements
+
 ## JavaScript if...else Statement
 
 if...else statement is to create decision making.
@@ -87,6 +99,104 @@ if (number >= 0) {
     console.log("You entered a negative number");
 }
 ```
+
+## JavaScript Switch Statement
+The JavaScript switch statement is used in decision making.
+
+The switch statement evaluates an expression and executes the corresponding body that matches the expression's result.
+
+```javascript
+// program using switch statement
+let a = 2;
+
+switch (a) {
+
+    case 1:
+        a = 'one';
+        break;
+    case 2:
+        a = 'two';
+        break;
+    default:
+        a = 'not found';
+        break;
+}
+console.log(`The value is ${a}`);
+```
+```javascript
+// program using switch statement
+let a = 1;
+
+switch (a) {
+    case "1":
+        a = 1;
+        break;
+    case 1:
+        a = 'one';
+        break;
+    case 2:
+        a = 'two';
+        break;
+
+    default:
+        a = 'not found';
+        break;
+}
+console.log(`The value is ${a}`);
+```
+
+```javascript
+
+// program for a simple calculator
+let result;
+
+// take the operator input
+const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// take the operand input
+const number1 = parseFloat(prompt('Enter first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
+
+switch(operator) {
+    case '+':
+        result = number1 + number2;
+        console.log(`${number1} + ${number2} = ${result}`);
+        break;
+    case '-':
+        result = number1 - number2;
+        console.log(`${number1} - ${number2} = ${result}`);
+        break;
+    case '*':
+        result = number1 * number2;
+        console.log(`${number1} * ${number2} = ${result}`);
+        break;
+    case '/':
+        result = number1 / number2;
+        console.log(`${number1} / ${number2} = ${result}`);
+        break;
+
+    default:
+        console.log('Invalid operator');
+        break;
+}
+```
+```javascript
+// multiple case switch program
+let fruit = 'apple';
+switch(fruit) {
+    case 'apple':
+    case 'mango':
+    case 'pineapple':
+        console.log(`${fruit} is a fruit.`);
+        break;
+    default:
+        console.log(`${fruit} is not a fruit.`);
+        break;
+}
+```
+
+
+# Looping/iterative control statements
 
 ## JavaScript for loop
 
@@ -248,7 +358,7 @@ while (condition) {
 }
 ```
 
-## JavaScript break Statement
+# JavaScript break Statement
 The break statement is used to terminate the loop immediately when it is encountered.
 
 ```javascript
@@ -307,7 +417,7 @@ for (let i = 1; i <= 3; i++) {
 
 ```
 
-## JavaScript continue Statement
+# JavaScript continue Statement
 The continue statement is used to skip the current iteration of the loop and the control flow of the program goes to the next iteration.
 
 ```javascript
@@ -368,102 +478,7 @@ for (let i = 1; i <= 3; i++) {
 }
 ```
 
-## JavaScript Switch Statement
-The JavaScript switch statement is used in decision making.
-
-The switch statement evaluates an expression and executes the corresponding body that matches the expression's result.
-
-```javascript
-// program using switch statement
-let a = 2;
-
-switch (a) {
-
-    case 1:
-        a = 'one';
-        break;
-    case 2:
-        a = 'two';
-        break;
-    default:
-        a = 'not found';
-        break;
-}
-console.log(`The value is ${a}`);
-```
-```javascript
-// program using switch statement
-let a = 1;
-
-switch (a) {
-    case "1":
-        a = 1;
-        break;
-    case 1:
-        a = 'one';
-        break;
-    case 2:
-        a = 'two';
-        break;
-
-    default:
-        a = 'not found';
-        break;
-}
-console.log(`The value is ${a}`);
-```
-
-```javascript
-
-// program for a simple calculator
-let result;
-
-// take the operator input
-const operator = prompt('Enter operator ( either +, -, * or / ): ');
-
-// take the operand input
-const number1 = parseFloat(prompt('Enter first number: '));
-const number2 = parseFloat(prompt('Enter second number: '));
-
-switch(operator) {
-    case '+':
-        result = number1 + number2;
-        console.log(`${number1} + ${number2} = ${result}`);
-        break;
-    case '-':
-        result = number1 - number2;
-        console.log(`${number1} - ${number2} = ${result}`);
-        break;
-    case '*':
-        result = number1 * number2;
-        console.log(`${number1} * ${number2} = ${result}`);
-        break;
-    case '/':
-        result = number1 / number2;
-        console.log(`${number1} / ${number2} = ${result}`);
-        break;
-
-    default:
-        console.log('Invalid operator');
-        break;
-}
-```
-```javascript
-// multiple case switch program
-let fruit = 'apple';
-switch(fruit) {
-    case 'apple':
-    case 'mango':
-    case 'pineapple':
-        console.log(`${fruit} is a fruit.`);
-        break;
-    default:
-        console.log(`${fruit} is not a fruit.`);
-        break;
-}
-```
-
-## JavaScript try...catch...finally Statement
+# JavaScript try...catch...finally Statement
 
 The try, catch and finally blocks are used to handle exceptions (a type of an error). Before you learn about them, you need to know about the types of errors in programming.
 
