@@ -1,4 +1,4 @@
-# All About JavaScript
+# JavaScript Course
 
 - [Introduction](https://praveenorugantitech.github.io/praveenorugantitech-javascript/1_Introduction){:target="_blank"}
 - [Variables](https://praveenorugantitech.github.io/praveenorugantitech-javascript/2_Variables){:target="_blank"}
@@ -16,8 +16,6 @@
 - [setInterval() and clearInterval()](https://praveenorugantitech.github.io/praveenorugantitech-javascript/14_setInterval_clearInterval){:target="_blank"}
 - [setTimeout() and clearTimeout()](https://praveenorugantitech.github.io/praveenorugantitech-javascript/15_setTimeout_clearTimeout){:target="_blank"}
 - [Callback, Promise, Async/Await](https://praveenorugantitech.github.io/praveenorugantitech-javascript/16_Callbacks_Promises_Async_Await){:target="_blank"}
-- [Projects](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects){:target="_blank"}
-- [Interview Questions](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Interview%20Questions/Set1){:target="_blank"}
 
 **Note**: I will make sure to keep this updated
 
