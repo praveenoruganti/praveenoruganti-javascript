@@ -1,6 +1,4 @@
-# Praveen Oruganti JavaScript Projects
-
-Here with my JavaScript Projects
+# Praveen Oruganti Tech JavaScript Projects
 
 - [Color Flipper](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-color-flipper){:target="_blank"}
 - [Counter](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-counter){:target="_blank"}
