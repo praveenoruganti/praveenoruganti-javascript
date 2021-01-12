@@ -1,4 +1,4 @@
-# Praveen Oruganti Tech JavaScript Course
+# JavaScript Course
 
 - [Introduction](https://praveenorugantitech.github.io/praveenorugantitech-javascript/1_Introduction){:target="_blank"}
 - [Variables](https://praveenorugantitech.github.io/praveenorugantitech-javascript/2_Variables){:target="_blank"}
