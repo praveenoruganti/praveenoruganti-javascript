@@ -1,7 +1,7 @@
 ![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
 
 
-# Praveen Oruganti Tech JavaScript Projects
+# JavaScript Projects
 
 - **Color Flipper** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-color-flipper){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-javascript/tree/master/0_Projects/praveenorugantitech-color-flipper){:target="_blank"}
 - **Counter** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-counter){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-javascript/tree/master/0_Projects/praveenorugantitech-counter){:target="_blank"}
