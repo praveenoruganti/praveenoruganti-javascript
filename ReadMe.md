@@ -1,7 +1,6 @@
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
-
-
 # JavaScript Course
+
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
 
 - [Introduction](https://praveenorugantitech.github.io/praveenorugantitech-javascript/1_Introduction){:target="_blank"}
 - [Variables](https://praveenorugantitech.github.io/praveenorugantitech-javascript/2_Variables){:target="_blank"}

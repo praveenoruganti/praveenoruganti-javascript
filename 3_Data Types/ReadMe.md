@@ -1,7 +1,6 @@
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
-
-
 # JavaScript Data Types
+
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
 
 JavaScript variables can hold many data types: numbers, strings, objects and more.
 

@@ -1,7 +1,6 @@
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
-
-
 # JavaScript setTimeout and clearTimeout
+
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
 
 ### JavaScript setTimeout()
 The setTimeout() method executes a block of code after the specified time. The method executes the code only once.

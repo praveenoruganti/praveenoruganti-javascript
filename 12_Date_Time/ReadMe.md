@@ -1,7 +1,7 @@
+# JavaScript Date and Time
+
 ![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
 
-
-# JavaScript Date and Time
 In JavaScript, date and time are represented by the Date object. The Date object provides the date and time information and also provides various methods.
 
 A JavaScript date defines the EcmaScript epoch that represents milliseconds since 1 January 1970 UTC. This date and time is the same as the UNIX epoch (predominant base value for computer-recorded date and time values).
