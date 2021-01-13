@@ -1,3 +1,6 @@
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
+
 # JavaScript Date and Time
 In JavaScript, date and time are represented by the Date object. The Date object provides the date and time information and also provides various methods.
 

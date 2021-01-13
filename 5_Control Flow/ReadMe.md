@@ -1,3 +1,6 @@
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
+
 # JavaScript Control Flow
 
 The control flow within JavaScript allow the program flow to change within a unit of code or function. These statements can determine whether or not given statements are executed—and provide the basis for the repeated execution of a block of code.

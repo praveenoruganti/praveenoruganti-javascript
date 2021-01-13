@@ -1,3 +1,6 @@
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
+
 # JavaScript Course
 
 - [Introduction](https://praveenorugantitech.github.io/praveenorugantitech-javascript/1_Introduction){:target="_blank"}

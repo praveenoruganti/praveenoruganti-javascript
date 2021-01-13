@@ -1,3 +1,6 @@
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
+
 # JavaScript Interview Questions Set 1
 
 **Note: I will include more questions regularly.**

@@ -1,3 +1,6 @@
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
+
 # Praveen Oruganti Tech JavaScript Projects
 
 - [Color Flipper](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-color-flipper){:target="_blank"}

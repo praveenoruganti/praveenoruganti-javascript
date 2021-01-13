@@ -1,4 +1,9 @@
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
+
 # JavaScript Objects and Arrays
+
+
 # JavaScript Objects
 
 JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.
