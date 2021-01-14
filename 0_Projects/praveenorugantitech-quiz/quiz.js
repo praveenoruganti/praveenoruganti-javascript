@@ -13,10 +13,9 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch("./quizData.json")
-  .then((res) => res.json())
+fetch('./javascript.json')
+  .then((res) => res.json()) 
   .then((loadedQuestions) => {
-    console.log(loadedQuestions);
     questions = loadedQuestions.map((loadedQuestion) => {
       const formattedQuestion = {
         question: loadedQuestion.question,
