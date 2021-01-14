@@ -137,7 +137,7 @@ document.querySelector("#course-list").addEventListener("click", (e) => {
 
 // Auto Text Effect
 const textEl = document.getElementById("text");
-const text = "This is Praveen Oruganti Course List App!!";
+const text = "Course List!!";
 let idx = 1;
 writeText();
 
