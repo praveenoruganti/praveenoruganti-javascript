@@ -1,6 +1,6 @@
 # JavaScript Callbacks, Promises, Async/Await
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 In JavaScript the code is executed line by line in a sequence so when we run a parallel operation or asynchronous operation like fetching data from backend, JavaScript doesn't waits for the response it simply executes the next line of code. we give the asynchronous operation a function to call when it is completed. This function is called a Callback function.
 

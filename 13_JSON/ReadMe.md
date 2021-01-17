@@ -1,6 +1,6 @@
 # JavaScript JSON
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 JSON stands for Javascript Object Notation. JSON is a text-based data format that is used to store and transfer data.
 

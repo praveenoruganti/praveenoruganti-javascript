@@ -1,6 +1,6 @@
 # JavaScript Operators
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 ## What is an Operator?
 In JavaScript, an operator is a special symbol used to perform operations on operands(values and variables).

@@ -1,6 +1,6 @@
 # JavaScript Interview Questions Set 2
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 ###### 1. What's the output?
 

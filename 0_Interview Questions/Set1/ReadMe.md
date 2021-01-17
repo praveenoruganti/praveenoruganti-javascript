@@ -1,6 +1,6 @@
 # JavaScript Interview Questions Set 1
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 **Q1 Difference between let and var** <br>
 let came up in ES6, it is block scope and its not hoist.<br>

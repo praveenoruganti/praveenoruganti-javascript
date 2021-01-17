@@ -1,6 +1,6 @@
 # JavaScript Variables
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 Most of the time, a JavaScript application needs to work with information. Here are two examples:
 

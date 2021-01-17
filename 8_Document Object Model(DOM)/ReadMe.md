@@ -1,6 +1,6 @@
 # Document Object Model(DOM)
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 When a web page is loaded, the browser creates a Document Object Model of the page. It is the tree representation of the HTML document. This DOM tree can be modified with the help of JavaScript.
 

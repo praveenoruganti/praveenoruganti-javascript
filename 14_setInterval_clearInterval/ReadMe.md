@@ -1,6 +1,6 @@
 # JavaScript setInterval and clearInterval
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 In JavaScript, a block of code can be executed in specified time intervals. These time intervals are called timing events.
 

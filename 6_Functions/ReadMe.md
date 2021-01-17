@@ -1,6 +1,6 @@
 # JavaScript Function
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 A function is a block of code that performs a specific task.
 

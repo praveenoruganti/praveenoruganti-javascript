@@ -1,6 +1,6 @@
 # Browser Object Model(BOM)
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-express-js/master/tech.PNG)
+
 
 BOM(Browser Object Model) represents the current browser window. The main purpose of Browser Object Model is to manipulate the properties and methods which are associated with the browser window.
 
