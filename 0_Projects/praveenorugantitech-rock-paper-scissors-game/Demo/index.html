@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186960773-2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -23,21 +25,28 @@
 </head>
 
 <body>
-  <div class="selections">
-    <button class="selection" data-selection="rock">✊</button>
-    <button class="selection" data-selection="paper">✋</button>
-    <button class="selection" data-selection="scissors">✌</button>
-  </div>
-  <div class="results">
-    <div>
-      You
-      <span class="result-score" data-your-score>0</span>
+  <div id="content">
+          <h1>Rock   Paper   Scissors</h1>
+          <div id=buttons>
+              <button id="rock" class="hands" onclick="toRock()"><i class="far fa-hand-rock"></i></button>
+              <button id="paper" class="hands" onclick="toPaper()" onclick="anime()"><i class="far fa-hand-paper"></i></button>
+              <button id="scissors" class="hands" onclick="toScissors()"><i class="far fa-hand-scissors"></i></button>
+          </div>
+
+          <div id="results">
+              <p id="player">Click on one of the images to play</p>
+              <p id="computer"></p>
+              <p id="winner"></p>
+          </div>
+
+          <div id="scoreboard">
+              <p class="score" id="player-wins">You won 0 rounds</p>
+              <p class="score" id ="computer-wins">Computer won 0 rounds</p>
+          </div>
+
+          <p id="rounds">Rounds played: 0/5</p>
+          <button id="reset" onclick="reset()">Reset</button>
     </div>
-    <div data-final-column>
-      Computer
-      <span class="result-score" data-computer-score>0</span>
-    </div>
-  </div>
 </body>
 
 </html>
