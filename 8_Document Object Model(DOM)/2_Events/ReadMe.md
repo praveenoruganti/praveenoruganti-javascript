@@ -106,7 +106,7 @@ There are 3 keyboard events:
 
 You can check out the Demo for [Form Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events/Demo/Keyboard%20Events){:target="_blank"}.
 
-You can also check out Demo for [Drum Kit](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/0_Projects/praveenorugantitech-drum-kit){:target="_blank"}.
+You can also check out Demo for [Drum Kit](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course-projects/praveenorugantitech-drum-kit){:target="_blank"}.
 
 ## Mouse Events
 
