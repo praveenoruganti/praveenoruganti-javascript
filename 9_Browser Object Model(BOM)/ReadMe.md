@@ -6,7 +6,7 @@ BOM(Browser Object Model) represents the current browser window. The main purpos
 
 ## Window Object
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/images/BOM.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-course/master/images/BOM.PNG)
 
 To access the Browser Object Model(BOM) we can use the window object.
 For example,
@@ -77,5 +77,5 @@ console.log(location.pathname);
 console.log(location.search);
 location.assign("https://praveenorugantitech.blogspot.com");
 ```
-You can also check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/9_Browser%20Object%20Model(BOM)/Demo){:target="_blank"}.
+You can also check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/9_Browser%20Object%20Model(BOM)/Demo){:target="_blank"}.
 

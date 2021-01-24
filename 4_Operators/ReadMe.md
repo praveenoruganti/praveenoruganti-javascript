@@ -183,7 +183,7 @@ What operations are executed first, and which need to wait?
 Some operations have more precedence than the others. The precedence
 rules are listed in this table:
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/images/Precedence.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-course/master/images/Precedence.PNG)
 
 Operations on the same level (like + and - ) are executed in the order they
 are found, from left to right.
@@ -195,6 +195,6 @@ let a = 2 + 2.5 % 2
 let a = 2 + 0.5
 let a = 2.5
 ```
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/4_Operators/Demo){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/4_Operators/Demo){:target="_blank"}.
 
 

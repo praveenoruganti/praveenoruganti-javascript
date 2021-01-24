@@ -173,7 +173,7 @@ const date = new Date(2008, 0, 33);
 console.log(date);
 ```
 
-You can also check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/12_Date_Time/Demo){:target="_blank"}.
+You can also check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/12_Date_Time/Demo){:target="_blank"}.
 
 
 

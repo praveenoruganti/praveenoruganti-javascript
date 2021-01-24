@@ -36,7 +36,7 @@ For example,
 ```javascript
 selectedElement.addEventListener('click',function(){})
 ```
-You can check out the Demo for [Color Flipper](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper){:target="_blank"} based on button click event.
+You can check out the Demo for [Color Flipper](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events/Demo/Color%20Flipper){:target="_blank"} based on button click event.
 
 **Different phases of events - capture, target, bubble**
 When an event moves through the DOM - whether bubbling up or trickling down - it is called event propagation. The event propagates through the DOM tree.
@@ -92,7 +92,7 @@ username.addEventListener("blur", () => {
 
 ```
 
-You can check out the Demo for [Form Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events/Demo/Form%20Events){:target="_blank"}.
+You can check out the Demo for [Form Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events/Demo/Form%20Events){:target="_blank"}.
 
 
 ## Keyboard Events
@@ -104,9 +104,9 @@ There are 3 keyboard events:
 - keyup: It is triggered when any key is released after it's keydown event.
 - keypress: It is triggered when any key except Shift, Function, capsLock is in pressed position.
 
-You can check out the Demo for [Form Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events/Demo/Keyboard%20Events){:target="_blank"}.
+You can check out the Demo for [Form Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events/Demo/Keyboard%20Events){:target="_blank"}.
 
-You can also check out Demo for [Drum Kit](https://praveenorugantitech.github.io/praveenorugantitech-javascript/0_Projects/praveenorugantitech-drum-kit){:target="_blank"}.
+You can also check out Demo for [Drum Kit](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/0_Projects/praveenorugantitech-drum-kit){:target="_blank"}.
 
 ## Mouse Events
 
@@ -152,9 +152,9 @@ btn.addEventListener("mousemove", () => {
 
 ```
 
-You can check out the Demo for [Mouse Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events){:target="_blank"}.
+You can check out the Demo for [Mouse Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events/Demo/Mouse%20Events){:target="_blank"}.
 
-You can also check out the Demo for [Magic Color Changer](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer){:target="_blank"}.
+You can also check out the Demo for [Magic Color Changer](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events/Demo/Magic%20Color%20Changer){:target="_blank"}.
 
 **Note:** You can also refer the [documentation](https://developer.mozilla.org/en-US/docs/Web/Events) to learn more about events.
 

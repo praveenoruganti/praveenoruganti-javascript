@@ -205,7 +205,7 @@ if (num > 0) {
 }
 
 ```
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/6_Functions/Demo){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/6_Functions/Demo){:target="_blank"}.
 
 
 

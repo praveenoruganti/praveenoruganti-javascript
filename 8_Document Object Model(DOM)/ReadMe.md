@@ -9,7 +9,7 @@ The Document Object Model (DOM) is a programming interface for HTML and XML docu
 HTML DOM methods are actions you can perform (on HTML elements).
 HTML DOM properties are values (of HTML elements) that you can set or change.
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/8_Document%20Object%20Model(DOM)/images/screenshot.png)
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-course/master/8_Document%20Object%20Model(DOM)/images/screenshot.png)
 
 
 **JavaScript and DOM**
@@ -23,8 +23,8 @@ HTML DOM properties are values (of HTML elements) that you can set or change.
 
 **Lets see different concepts in DOM**
 
-- [All About Modifying HTML Elements](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/1_HTML%20Elements){:target="_blank"}
-- [All About Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript/8_Document%20Object%20Model(DOM)/2_Events){:target="_blank"}
+- [All About Modifying HTML Elements](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements){:target="_blank"}
+- [All About Events](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/2_Events){:target="_blank"}
 
 
 

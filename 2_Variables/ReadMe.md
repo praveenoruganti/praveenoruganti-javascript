@@ -81,7 +81,7 @@ let x, X;
 ```
 - Names cannot be reserved keywords.
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/images/keywords.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-course/master/images/keywords.PNG)
 ```javascript
 let let; // invalid
 let var; // invalid
@@ -184,7 +184,7 @@ Variables should be named in a way that allows us to easily understand what’s 
 
 ## var vs let vs const
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/images/varVsletVsconst.PNG)
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-course/master/images/varVsletVsconst.PNG)
 
 ## Variable Scope
 Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global:
@@ -346,7 +346,7 @@ console.log(num1); // Uncaught SyntaxError: Identifier 'num1' has already been d
 
 To summarize, variables introduced with var have the potential of being affected by hoisting, a mechanism in JavaScript in which variable declarations are saved to memory. This may result in undefined variables in one’s code. The introduction of let and const resolves this issue by throwing an error when attempting to use a variable before declaring it or attempting to declare a variable more than once.
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/2_Variables/Demo){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/2_Variables/Demo){:target="_blank"}.
 
 
 

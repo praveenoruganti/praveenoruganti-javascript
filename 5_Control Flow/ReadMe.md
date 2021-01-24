@@ -9,7 +9,7 @@ The flow of control through any given function is implemented with three basic t
 - Selection: used for decisions, branching—choosing between two or more alternative paths
 - Repetition: used for looping (i.e., repeating a piece of code multiple times in a row)
 
-![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript/master/5_Control%20Flow/images/screenshot.jpg)
+![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-course/master/5_Control%20Flow/images/screenshot.jpg)
 
 
 # Conditional control statements
@@ -598,5 +598,5 @@ Here, the catch block handles the exception and no error occurs. Hence, the thro
 
 If the error was not handled by the catch block, the throw statement would be re-thrown with error message Uncaught Error: The value is low
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript/5_Control%20Flow/Demo){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/5_Control%20Flow/Demo){:target="_blank"}.
 
