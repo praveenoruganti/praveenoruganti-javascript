@@ -2,7 +2,7 @@
 
 - **Color Flipper** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-color-flipper-js/Demo){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-color-flipper-js){:target="_blank"}
 
-- **Counter** [Live Demo]https://praveenorugantitech.github.io/praveenorugantitech-counter-js/Demo){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-counter-js){:target="_blank"}
+- **Counter** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-counter-js/Demo){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-counter-js){:target="_blank"}
 
 - **Countdown Timer** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-countdown-timer-js/Demo){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-countdown-timer-js){:target="_blank"}
 
