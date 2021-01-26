@@ -66,13 +66,13 @@
 
 - **Flex Panel Gallery** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-flex-panel-gallery-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-flex-panel-gallery-js){:target="_blank"}
 
-- **Tic Tac Toe Game** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-tic-tac-toe-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-tic-tac-toe-js){:target="_blank"}
+- **Tic Tac Toe** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-tic-tac-toe-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-tic-tac-toe-js){:target="_blank"}
 
-- **Memory Game** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-memory-game-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-memory-game-js){:target="_blank"}
+- **Memory** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-memory-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-memory-js){:target="_blank"}
 
-- **Rock Paper Scissors Game** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-rock-paper-scissors-game-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-rock-paper-scissors-game-js){:target="_blank"}
+- **Rock Paper Scissors** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-rock-paper-scissors-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-rock-paper-scissors-js){:target="_blank"}
 
-- **Minesweeper Game** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-minesweeper-game-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-minesweeper-game-js){:target="_blank"}
+- **Minesweeper** [Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-minesweeper-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-minesweeper-js){:target="_blank"}
 
 - **Guess My Number** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-guess-my-number-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-guess-my-number-js){:target="_blank"}
 
