@@ -52,6 +52,8 @@
 
 - **GitHub Search** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-github-search-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-github-search-js){:target="_blank"}
 
+- **Lyrics Search** [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-lyrics-search-js){:target="_blank"}
+
 - **Currency Converter** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-currency-converter-js/Demo){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-currency-converter-js){:target="_blank"}
 
 - **Meal Finder** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-meal-finder-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-meal-finder-js){:target="_blank"}
