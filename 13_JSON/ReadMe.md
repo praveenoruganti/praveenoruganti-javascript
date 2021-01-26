@@ -119,7 +119,7 @@ JSON is the most commonly used format for transmitting data (data interchange) f
 
 JSON is language independent. You can create and use JSON in other programming languages too.
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/13_JSON){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/13_JSON/Demo){:target="_blank"}.
 
 
 
