@@ -19,8 +19,7 @@
 - [setTimeout() and clearTimeout()](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/15_setTimeout_clearTimeout){:target="_blank"}
 - [Callback, Promise, Async/Await](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/16_Callbacks_Promises_Async_Await){:target="_blank"}
 
-**Note**: I will make sure to keep this updated
-
+**Note**: I will make sure to keep this updated.
 
 
 
