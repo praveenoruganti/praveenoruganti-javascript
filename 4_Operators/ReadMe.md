@@ -195,6 +195,6 @@ let a = 2 + 2.5 % 2
 let a = 2 + 0.5
 let a = 2.5
 ```
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/4_Operators/Demo){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/4_Operators/Demo){:target="_blank"}
 
 

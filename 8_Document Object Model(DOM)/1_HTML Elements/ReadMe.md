@@ -47,7 +47,7 @@ There are 2 such selectors:
 - Query Selectors are not supported by IE 7 and below version
 - getElementById is faster than querySelector
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Select%20HTML%20Elements){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Select%20HTML%20Elements){:target="_blank"}
 
 ## Update HTML Content and Attributes using JavaScript
 
@@ -75,7 +75,7 @@ selectedElement.style.{propertyName}= value;
 selectedElement.style.width='300px'
 ```
 
-You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/OOPS){:target="_blank"}.
+You can check out the [Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/OOPS){:target="_blank"}
 
 # Add/Remove Classes using JavaScript
 
@@ -198,8 +198,8 @@ let firstElement = list.firstElementChild;
 
 You can check out the  Demo for [Todo Items](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Todo){:target="_blank"} for Creating, Updating and Deleting HTML elements.
 
-You can also check out the Demo for [Counter](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Counter){:target="_blank"}.
+You can also check out the Demo for [Counter](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Counter){:target="_blank"}
 
-You can also check out the Demo for [Sorting](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Sorting){:target="_blank"}.
+You can also check out the Demo for [Sorting](https://praveenorugantitech.github.io/praveenorugantitech-javascript-course/8_Document%20Object%20Model(DOM)/1_HTML%20Elements/Demo/Sorting){:target="_blank"}
 
 
