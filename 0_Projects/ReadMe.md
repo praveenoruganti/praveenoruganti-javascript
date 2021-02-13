@@ -28,6 +28,8 @@
 
 - **Guess My Number** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-guess-my-number-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-guess-my-number-js){:target="_blank"}
 
+- **Math Game** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-math-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-math-js){:target="_blank"}
+
 ## Miscellaneous Apps
 
 - **Color Flipper** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-color-flipper-js/Demo){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-color-flipper-js){:target="_blank"}
@@ -75,8 +77,6 @@
 - **Sticky Note** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-sticky-note-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-sticky-note-js){:target="_blank"}
 
 - **Quote Generator** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-quote-generator-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-quote-generator-js){:target="_blank"}
-
-- **Math Game** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-math-game-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-math-game-js){:target="_blank"}
 
 - **Quiz** [Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-quiz-js/Demo/){:target="_blank"} [Source Code](https://github.com/praveenorugantitech/praveenorugantitech-quiz-js){:target="_blank"}
 
